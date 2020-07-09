@@ -311,7 +311,6 @@
   <ItemSource>
    <TextEncoding>134217984</TextEncoding>
    <NoteLine>ComoBoxCell</NoteLine>
-   <NoteLine></NoteLine>
    <NoteLine>If you have a ComboBoxCell which is just created and you need to get a certain content you can do it like this:</NoteLine>
    <NoteLine></NoteLine>
    <NoteLine>1. AddRow - i.e. Value2 should be the ComboBox</NoteLine>
@@ -342,8 +341,8 @@
   </ItemSource>
   <ItemFlags>0</ItemFlags>
  </Note>
- <PropertyVal Name="BalloonHelp"></PropertyVal>
  <PropertyVal Name="LiveResize">False</PropertyVal>
+ <PropertyVal Name="BalloonHelp"></PropertyVal>
  <PropertyVal Name="MenuBarVisible">True</PropertyVal>
  <PropertyVal Name="MenuBar">-1113051613</PropertyVal>
  <PropertyVal Name="Backdrop">0</PropertyVal>
@@ -4673,7 +4672,7 @@
    <EditorCount>1</EditorCount>
    <Editor>
     <EditorIndex>0</EditorIndex>
-    <EditorLocation>Window1</EditorLocation>
+    <EditorLocation>Window1.</EditorLocation>
     <EditorPath></EditorPath>
     <EditingPartID>-1113051612</EditingPartID>
     <EditorPath></EditorPath>
