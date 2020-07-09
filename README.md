@@ -1,5 +1,6 @@
 # XOJO-ListBox-Additional-Celltypes
-Additional celltypes in XOJO ListBox control such als PopUp, ComboBox and so on
+Additional celltypes in XOJO ListBox control such als PopUp, ComboBox and so on.
+
 The orignial project was the https://github.com/alexrestrepo/RBCustomCells by Alex Restrepo.
 I've changed the project and added some more cell types to the ListBox.
 
