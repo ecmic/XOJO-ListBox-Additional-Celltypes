@@ -1,0 +1,4685 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RBProject version="2019r3.1" FormatVersion="2" MinIDEVersion="20070100">
+<block type="Project" ID="0">
+ <ProjectSavedInVers>2019.031</ProjectSavedInVers>
+ <IDEVersion>20190310</IDEVersion>
+ <MajorVersion>1</MajorVersion>
+ <MinorVersion>0</MinorVersion>
+ <SubVersion>0</SubVersion>
+ <Release>0</Release>
+ <NonRelease>0</NonRelease>
+ <Region>0</Region>
+ <ShortVersion></ShortVersion>
+ <LongVersion></LongVersion>
+ <InfoVersion></InfoVersion>
+ <AutoIncVersion>0</AutoIncVersion>
+ <DefaultViewID>-1113051612</DefaultViewID>
+ <ProjectType>0</ProjectType>
+ <DefaultLanguage>0</DefaultLanguage>
+ <CurrentLanguage>0</CurrentLanguage>
+ <DefaultEncoding>134217984</DefaultEncoding>
+ <BuildFlags>6160</BuildFlags>
+ <UseBuildsFolder>1</UseBuildsFolder>
+ <WebApp>0</WebApp>
+ <Icon>
+ </Icon>
+ <MacCreator>????</MacCreator>
+ <BuildCarbonMachOName>My Application</BuildCarbonMachOName>
+ <BundleIdentifier>com.mycompany.MyApplication</BundleIdentifier>
+ <WinMDICaption>My Application</WinMDICaption>
+ <BuildWinName>My Application.exe</BuildWinName>
+ <BuildWinMDI>0</BuildWinMDI>
+ <BuildWinCompanyName></BuildWinCompanyName>
+ <BuildWinProductName></BuildWinProductName>
+ <BuildWinInternalName></BuildWinInternalName>
+ <BuildWinFileDescription></BuildWinFileDescription>
+ <UseGDIPlus>0</UseGDIPlus>
+ <BuildLinuxX86Name>MyApplication</BuildLinuxX86Name>
+ <BuildCarbonExecutableFormat>1</BuildCarbonExecutableFormat>
+ <FileType>
+  <ItemName>text</ItemName>
+  <MacCreator>R*ch</MacCreator>
+  <ItemType>TEXT</ItemType>
+  <ItemDef></ItemDef>
+  <ItemFlags>0</ItemFlags>
+  <UTIType></UTIType>
+  <ObjName>Text</ObjName>
+  <ConformsTo></ConformsTo>
+  <Description></Description>
+  <MimeType></MimeType>
+  <Imported>1</Imported>
+  <FileRank>9</FileRank>
+  <FilePhysicalType>public.data</FilePhysicalType>
+ </FileType>
+ <DebuggerCommandLine></DebuggerCommandLine>
+ <MacArchitecture>1</MacArchitecture>
+ <WindowsArchitecture>1</WindowsArchitecture>
+ <OptimizationLevel>0</OptimizationLevel>
+ <CopyWindowsRedist>0</CopyWindowsRedist>
+ <WindowsVersions>{35138b9a-5d96-4fbd-8e2d-a2440225f93a}|{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}|{1f676c76-80e1-4239-95bb-83d0f6d0da78}|{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}</WindowsVersions>
+ <WindowsRunAs>0</WindowsRunAs>
+</block>
+<block type="FileTypes" ID="308651762">
+ <ObjName>FileTypes</ObjName>
+ <ObjContainerID>0</ObjContainerID>
+ <FileType>
+  <ItemName>text</ItemName>
+  <MacCreator>R*ch</MacCreator>
+  <ItemType>TEXT</ItemType>
+  <ItemDef></ItemDef>
+  <ItemFlags>0</ItemFlags>
+  <UTIType></UTIType>
+  <ObjName>Text</ObjName>
+  <ConformsTo></ConformsTo>
+  <Description></Description>
+  <MimeType></MimeType>
+  <Imported>1</Imported>
+  <FileRank>9</FileRank>
+  <FilePhysicalType>public.data</FilePhysicalType>
+ </FileType>
+</block>
+<block type="Module" ID="-1113051614">
+ <ObjName>App</ObjName>
+ <ObjContainerID>0</ObjContainerID>
+ <IsClass>1</IsClass>
+ <Superclass>Application</Superclass>
+ <ItemFlags>1</ItemFlags>
+ <IsInterface>0</IsInterface>
+ <IsApplicationObject>1</IsApplicationObject>
+ <Compatibility></Compatibility>
+ <HookInstance>
+  <ItemName>Open</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>835745791</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Sub Open()</SourceLine>
+   <SourceLine>AutoQuit = true</SourceLine>
+   <SourceLine>End Sub</SourceLine>
+  </ItemSource>
+ </HookInstance>
+ <PropertyVal Name="MenuBar">-1113051613</PropertyVal>
+ <ViewBehavior>
+ </ViewBehavior>
+ <Constant>
+  <ItemName>gc_ColorEditField</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>1072771071</PartID>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemType>4</ItemType>
+  <ItemDef>&amp;cfafad2</ItemDef>
+  <ItemFlags>0</ItemFlags>
+ </Constant>
+</block>
+<block type="Menu" ID="-1113051613">
+ <ObjName>MenuBar1</ObjName>
+ <ObjContainerID>0</ObjContainerID>
+ <MenuItem>
+  <ItemSpecialMenu>0</ItemSpecialMenu>
+  <ItemName>UntitledMenu1</ItemName>
+  <ItemText></ItemText>
+  <ItemIndex>-2147483648</ItemIndex>
+  <ItemShortcut></ItemShortcut>
+  <MenuAutoEnable>0</MenuAutoEnable>
+  <TextEncoding>134217984</TextEncoding>
+  <MenuItemVisible>1</MenuItemVisible>
+  <ItemFlags>0</ItemFlags>
+  <Superclass>MenuItem</Superclass>
+ </MenuItem>
+ <MenuItem>
+  <ItemSpecialMenu>0</ItemSpecialMenu>
+  <ItemName>FileMenu</ItemName>
+  <ItemText>&amp;File</ItemText>
+  <ItemIndex>-2147483648</ItemIndex>
+  <ItemShortcut></ItemShortcut>
+  <MenuAutoEnable>0</MenuAutoEnable>
+  <TextEncoding>134217984</TextEncoding>
+  <MenuItemVisible>1</MenuItemVisible>
+  <ItemFlags>0</ItemFlags>
+  <Superclass>MenuItem</Superclass>
+  <MenuItem>
+   <ItemSpecialMenu>0</ItemSpecialMenu>
+   <ItemName>FileQuit</ItemName>
+   <ItemText>Quit</ItemText>
+   <ItemIndex>-2147483648</ItemIndex>
+   <ItemShortcut>Cmd+Q</ItemShortcut>
+   <MenuShortcut>Q</MenuShortcut>
+   <MenuShortcutModifier>1</MenuShortcutModifier>
+   <MenuAutoEnable>1</MenuAutoEnable>
+   <TextEncoding>134217984</TextEncoding>
+   <MenuItemVisible>1</MenuItemVisible>
+   <ItemFlags>0</ItemFlags>
+   <Superclass>QuitMenuItem</Superclass>
+  </MenuItem>
+  <MenuItem>
+   <ItemSpecialMenu>0</ItemSpecialMenu>
+   <ItemName>Untitled0</ItemName>
+   <ItemText></ItemText>
+   <ItemIndex>-2147483648</ItemIndex>
+   <ItemShortcut></ItemShortcut>
+   <MenuAutoEnable>0</MenuAutoEnable>
+   <TextEncoding>134217984</TextEncoding>
+   <MenuItemVisible>1</MenuItemVisible>
+   <ItemFlags>0</ItemFlags>
+   <Superclass>MenuItem</Superclass>
+  </MenuItem>
+ </MenuItem>
+ <MenuItem>
+  <ItemSpecialMenu>0</ItemSpecialMenu>
+  <ItemName>EditMenu</ItemName>
+  <ItemText>&amp;Edit</ItemText>
+  <ItemIndex>-2147483648</ItemIndex>
+  <ItemShortcut></ItemShortcut>
+  <MenuAutoEnable>0</MenuAutoEnable>
+  <TextEncoding>134217984</TextEncoding>
+  <MenuItemVisible>1</MenuItemVisible>
+  <ItemFlags>0</ItemFlags>
+  <Superclass>MenuItem</Superclass>
+  <MenuItem>
+   <ItemSpecialMenu>0</ItemSpecialMenu>
+   <ItemName>EditUndo</ItemName>
+   <ItemText>&amp;Undo</ItemText>
+   <ItemIndex>-2147483648</ItemIndex>
+   <ItemShortcut>Cmd+Z</ItemShortcut>
+   <MenuShortcut>Z</MenuShortcut>
+   <MenuShortcutModifier>1</MenuShortcutModifier>
+   <MenuAutoEnable>0</MenuAutoEnable>
+   <TextEncoding>134217984</TextEncoding>
+   <MenuItemVisible>1</MenuItemVisible>
+   <ItemFlags>0</ItemFlags>
+   <Superclass>MenuItem</Superclass>
+  </MenuItem>
+  <MenuItem>
+   <ItemSpecialMenu>0</ItemSpecialMenu>
+   <ItemName>UntitledMenu0</ItemName>
+   <ItemText>-</ItemText>
+   <ItemIndex>-2147483648</ItemIndex>
+   <ItemShortcut></ItemShortcut>
+   <MenuAutoEnable>0</MenuAutoEnable>
+   <TextEncoding>134217984</TextEncoding>
+   <MenuItemVisible>1</MenuItemVisible>
+   <ItemFlags>0</ItemFlags>
+   <Superclass>MenuItem</Superclass>
+  </MenuItem>
+  <MenuItem>
+   <ItemSpecialMenu>0</ItemSpecialMenu>
+   <ItemName>EditCut</ItemName>
+   <ItemText>Cu&amp;t</ItemText>
+   <ItemIndex>-2147483648</ItemIndex>
+   <ItemShortcut>Cmd+X</ItemShortcut>
+   <MenuShortcut>X</MenuShortcut>
+   <MenuShortcutModifier>1</MenuShortcutModifier>
+   <MenuAutoEnable>0</MenuAutoEnable>
+   <TextEncoding>134217984</TextEncoding>
+   <MenuItemVisible>1</MenuItemVisible>
+   <ItemFlags>0</ItemFlags>
+   <Superclass>MenuItem</Superclass>
+  </MenuItem>
+  <MenuItem>
+   <ItemSpecialMenu>0</ItemSpecialMenu>
+   <ItemName>EditCopy</ItemName>
+   <ItemText>&amp;Copy</ItemText>
+   <ItemIndex>-2147483648</ItemIndex>
+   <ItemShortcut>Cmd+C</ItemShortcut>
+   <MenuShortcut>C</MenuShortcut>
+   <MenuShortcutModifier>1</MenuShortcutModifier>
+   <MenuAutoEnable>0</MenuAutoEnable>
+   <TextEncoding>134217984</TextEncoding>
+   <MenuItemVisible>1</MenuItemVisible>
+   <ItemFlags>0</ItemFlags>
+   <Superclass>MenuItem</Superclass>
+  </MenuItem>
+  <MenuItem>
+   <ItemSpecialMenu>0</ItemSpecialMenu>
+   <ItemName>EditPaste</ItemName>
+   <ItemText>&amp;Paste</ItemText>
+   <ItemIndex>-2147483648</ItemIndex>
+   <ItemShortcut>Cmd+V</ItemShortcut>
+   <MenuShortcut>V</MenuShortcut>
+   <MenuShortcutModifier>1</MenuShortcutModifier>
+   <MenuAutoEnable>0</MenuAutoEnable>
+   <TextEncoding>134217984</TextEncoding>
+   <MenuItemVisible>1</MenuItemVisible>
+   <ItemFlags>0</ItemFlags>
+   <Superclass>MenuItem</Superclass>
+  </MenuItem>
+  <MenuItem>
+   <ItemSpecialMenu>0</ItemSpecialMenu>
+   <ItemName>EditClear</ItemName>
+   <ItemText>Clear</ItemText>
+   <ItemIndex>-2147483648</ItemIndex>
+   <ItemShortcut></ItemShortcut>
+   <MenuAutoEnable>0</MenuAutoEnable>
+   <TextEncoding>134217984</TextEncoding>
+   <MenuItemVisible>1</MenuItemVisible>
+   <ItemFlags>0</ItemFlags>
+   <Superclass>MenuItem</Superclass>
+  </MenuItem>
+  <MenuItem>
+   <ItemSpecialMenu>0</ItemSpecialMenu>
+   <ItemName>Untitled1</ItemName>
+   <ItemText></ItemText>
+   <ItemIndex>-2147483648</ItemIndex>
+   <ItemShortcut></ItemShortcut>
+   <MenuAutoEnable>0</MenuAutoEnable>
+   <TextEncoding>134217984</TextEncoding>
+   <MenuItemVisible>1</MenuItemVisible>
+   <ItemFlags>0</ItemFlags>
+   <Superclass>MenuItem</Superclass>
+  </MenuItem>
+  <MenuItem>
+   <ItemSpecialMenu>0</ItemSpecialMenu>
+   <ItemName>Untitled2</ItemName>
+   <ItemText></ItemText>
+   <ItemIndex>-2147483648</ItemIndex>
+   <ItemShortcut></ItemShortcut>
+   <MenuAutoEnable>0</MenuAutoEnable>
+   <TextEncoding>134217984</TextEncoding>
+   <MenuItemVisible>1</MenuItemVisible>
+   <ItemFlags>0</ItemFlags>
+   <Superclass>AppleMenuItem</Superclass>
+  </MenuItem>
+ </MenuItem>
+ <MenuItem>
+  <ItemSpecialMenu>0</ItemSpecialMenu>
+  <ItemName>Untitled3</ItemName>
+  <ItemText></ItemText>
+  <ItemIndex>-2147483648</ItemIndex>
+  <ItemShortcut></ItemShortcut>
+  <MenuAutoEnable>0</MenuAutoEnable>
+  <TextEncoding>134217984</TextEncoding>
+  <MenuItemVisible>1</MenuItemVisible>
+  <ItemFlags>0</ItemFlags>
+  <Superclass>MenuItem</Superclass>
+ </MenuItem>
+</block>
+<block type="Window" ID="-1113051612">
+ <ObjName>Window1</ObjName>
+ <ObjContainerID>0</ObjContainerID>
+ <IsClass>1</IsClass>
+ <Superclass>Window</Superclass>
+ <ItemFlags>1</ItemFlags>
+ <IsInterface>0</IsInterface>
+ <Compatibility></Compatibility>
+ <Note>
+  <ItemName>ComoBoxCell</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>168411135</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <NoteLine>ComoBoxCell</NoteLine>
+   <NoteLine></NoteLine>
+   <NoteLine>If you have a ComboBoxCell which is just created and you need to get a certain content you can do it like this:</NoteLine>
+   <NoteLine></NoteLine>
+   <NoteLine>1. AddRow - i.e. Value2 should be the ComboBox</NoteLine>
+   <NoteLine></NoteLine>
+   <NoteLine>   ListBox1.AddRow(MyStructure.Value1,MyStructure.Value2,MyStructure.Value3)</NoteLine>
+   <NoteLine></NoteLine>
+   <NoteLine>2. Create the ComboBoxCell</NoteLine>
+   <NoteLine></NoteLine>
+   <NoteLine>   ListBox1.customCell(ListBox1.LastAddedRowIndex,1) = new ComboBoxCell(";first entry;second entry;last entry")</NoteLine>
+   <NoteLine></NoteLine>
+   <NoteLine>3. fill the properties SelectedIndex and SelectedValue with the needed content</NoteLine>
+   <NoteLine></NoteLine>
+   <NoteLine>   call CustomListboxCell(Listbox1.CellTagAt(Listbox1.LastAddedRowIndex,1)).CompareAndAdd(Listbox1.CellValueAt(ListBox1.LastAddedRowIndex,1))</NoteLine>
+   <NoteLine></NoteLine>
+   <NoteLine>4. Get the value</NoteLine>
+   <NoteLine></NoteLine>
+   <NoteLine>   ListBox1.CellValueAt(Listbox1.LastAddedRowIndex,1) = CustomListboxCell(Listbox1.CellTagAt(Listbox1.LastAddedRowIndex,1)).getValue</NoteLine>
+   <NoteLine></NoteLine>
+   <NoteLine></NoteLine>
+   <NoteLine>And the normal handling of the ListBox1 has the event CellClick.</NoteLine>
+   <NoteLine>Here you can get the ComboBoxCellValue with</NoteLine>
+   <NoteLine></NoteLine>
+   <NoteLine>  Select Case me.ColIndex</NoteLine>
+   <NoteLine>  case 1</NoteLine>
+   <NoteLine>    me.CellValueAt(me.RowIndex,me.ColIndex) = cell.getValue</NoteLine>
+   <NoteLine>    me.EditCellAt(me.RowIndex, me.ColIndex)</NoteLine>
+   <NoteLine>  end select</NoteLine>
+  </ItemSource>
+  <ItemFlags>0</ItemFlags>
+ </Note>
+ <PropertyVal Name="BalloonHelp"></PropertyVal>
+ <PropertyVal Name="LiveResize">False</PropertyVal>
+ <PropertyVal Name="MenuBarVisible">True</PropertyVal>
+ <PropertyVal Name="MenuBar">-1113051613</PropertyVal>
+ <PropertyVal Name="Backdrop">0</PropertyVal>
+ <PropertyVal Name="BackgroundColor">16777215</PropertyVal>
+ <PropertyVal Name="BackColor">16777215</PropertyVal>
+ <PropertyVal Name="HasBackgroundColor">False</PropertyVal>
+ <PropertyVal Name="HasBackColor">False</PropertyVal>
+ <PropertyVal Name="Visible">True</PropertyVal>
+ <PropertyVal Name="DefaultLocation">0</PropertyVal>
+ <PropertyVal Name="Placement">0</PropertyVal>
+ <PropertyVal Name="ImplicitInstance">True</PropertyVal>
+ <PropertyVal Name="FullScreen">False</PropertyVal>
+ <PropertyVal Name="MacProcID">0</PropertyVal>
+ <PropertyVal Name="Composite">False</PropertyVal>
+ <PropertyVal Name="Resizeable">True</PropertyVal>
+ <PropertyVal Name="HasFullScreenButton">False</PropertyVal>
+ <PropertyVal Name="HasMinimizeButton">True</PropertyVal>
+ <PropertyVal Name="MinimizeButton">True</PropertyVal>
+ <PropertyVal Name="HasMaximizeButton">True</PropertyVal>
+ <PropertyVal Name="MaximizeButton">True</PropertyVal>
+ <PropertyVal Name="HasCloseButton">True</PropertyVal>
+ <PropertyVal Name="CloseButton">True</PropertyVal>
+ <PropertyVal Name="Title">Custom Cells</PropertyVal>
+ <PropertyVal Name="Type">0</PropertyVal>
+ <PropertyVal Name="Frame">0</PropertyVal>
+ <PropertyVal Name="MaximumHeight">32000</PropertyVal>
+ <PropertyVal Name="MaxHeight">32000</PropertyVal>
+ <PropertyVal Name="MaximumWidth">32000</PropertyVal>
+ <PropertyVal Name="MaxWidth">32000</PropertyVal>
+ <PropertyVal Name="MinimumHeight">64</PropertyVal>
+ <PropertyVal Name="MinHeight">64</PropertyVal>
+ <PropertyVal Name="MinimumWidth">64</PropertyVal>
+ <PropertyVal Name="MinWidth">64</PropertyVal>
+ <PropertyVal Name="Height">307</PropertyVal>
+ <PropertyVal Name="Width">1800</PropertyVal>
+ <ViewBehavior>
+  <ViewProperty>
+   <ObjName>Name</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <ItemType>String</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Interfaces</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <ItemType>String</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Super</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <ItemType>String</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Width</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Size</PropertyGroup>
+   <PropertyValue>600</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Height</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Size</PropertyGroup>
+   <PropertyValue>400</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>MinimumWidth</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Size</PropertyGroup>
+   <PropertyValue>64</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>MinimumHeight</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Size</PropertyGroup>
+   <PropertyValue>64</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>MaximumWidth</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Size</PropertyGroup>
+   <PropertyValue>32000</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>MaximumHeight</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Size</PropertyGroup>
+   <PropertyValue>32000</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Type</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Frame</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>Types</ItemType>
+   <EditorType>Enum</EditorType>
+   <Enumeration>
+    <ItemDef>0 - Document</ItemDef>
+    <ItemDef>1 - Movable Modal</ItemDef>
+    <ItemDef>2 - Modal Dialog</ItemDef>
+    <ItemDef>3 - Floating Window</ItemDef>
+    <ItemDef>4 - Plain Box</ItemDef>
+    <ItemDef>5 - Shadowed Box</ItemDef>
+    <ItemDef>6 - Rounded Window</ItemDef>
+    <ItemDef>7 - Global Floating Window</ItemDef>
+    <ItemDef>8 - Sheet Window</ItemDef>
+    <ItemDef>9 - Metal Window</ItemDef>
+    <ItemDef>11 - Modeless Dialog</ItemDef>
+   </Enumeration>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Title</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Frame</PropertyGroup>
+   <PropertyValue>Untitled</PropertyValue>
+   <ItemType>String</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>HasCloseButton</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Frame</PropertyGroup>
+   <PropertyValue>True</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>HasMaximizeButton</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Frame</PropertyGroup>
+   <PropertyValue>True</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>HasMinimizeButton</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Frame</PropertyGroup>
+   <PropertyValue>True</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>HasFullScreenButton</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Frame</PropertyGroup>
+   <PropertyValue>False</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Resizeable</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Frame</PropertyGroup>
+   <PropertyValue>True</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Composite</ObjName>
+   <PropertyGroup>OS X (Carbon)</PropertyGroup>
+   <PropertyValue>False</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>MacProcID</ObjName>
+   <PropertyGroup>OS X (Carbon)</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>FullScreen</ObjName>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <PropertyValue>False</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>ImplicitInstance</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <PropertyValue>True</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>DefaultLocation</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>Locations</ItemType>
+   <EditorType>Enum</EditorType>
+   <Enumeration>
+    <ItemDef>0 - Default</ItemDef>
+    <ItemDef>1 - Parent Window</ItemDef>
+    <ItemDef>2 - Main Screen</ItemDef>
+    <ItemDef>3 - Parent Window Screen</ItemDef>
+    <ItemDef>4 - Stagger</ItemDef>
+   </Enumeration>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Visible</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <PropertyValue>True</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>HasBackgroundColor</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Background</PropertyGroup>
+   <PropertyValue>False</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>BackgroundColor</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Background</PropertyGroup>
+   <PropertyValue>&amp;hFFFFFF</PropertyValue>
+   <ItemType>Color</ItemType>
+   <EditorType>Color</EditorType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Backdrop</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Background</PropertyGroup>
+   <ItemType>Picture</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>MenuBar</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Menus</PropertyGroup>
+   <ItemType>MenuBar</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>MenuBarVisible</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Deprecated</PropertyGroup>
+   <PropertyValue>True</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+ </ViewBehavior>
+ <ControlBehavior>
+  <Superclass>CustomCellListbox</Superclass>
+  <HookInstance>
+   <ItemName>Open</ItemName>
+   <Compatibility></Compatibility>
+   <Visible>1</Visible>
+   <PartID>212080639</PartID>
+   <ItemSource>
+    <TextEncoding>134217984</TextEncoding>
+    <SourceLine>Sub Open()</SourceLine>
+    <SourceLine>'me.bold = true</SourceLine>
+    <SourceLine>me.DefaultRowHeight = 20 'for playing with the size</SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine>//add some custom cells to this listbox. Six columns in five rows</SourceLine>
+    <SourceLine>for i as integer = 1 to 5</SourceLine>
+    <SourceLine>me.addrow str(i)</SourceLine>
+    <SourceLine>me.customCell(me.lastIndex,1) = new RatingCell(rnd*6,5)       'Beispiel gefüllt mit Zufallsfaktor</SourceLine>
+    <SourceLine>me.customCell(me.lastIndex,2) = new ProgressCell(rnd*100,100) </SourceLine>
+    <SourceLine>me.customCell(me.lastIndex,3) = new ButtonsCell("eins;zwei;drei;vier;fünf") </SourceLine>
+    <SourceLine>me.customCell(me.lastIndex,4) = new PushButtonCell("OK","Ok")</SourceLine>
+    <SourceLine>me.customCell(me.lastIndex,5) = new PopUpCell(";one;two;three;four;five")</SourceLine>
+    <SourceLine>me.customCell(me.LastIndex,6) = new ComboBoxCell(";ene;mene;muh")</SourceLine>
+    <SourceLine>next</SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine>End Sub</SourceLine>
+   </ItemSource>
+  </HookInstance>
+  <HookInstance>
+   <ItemName>CellClick</ItemName>
+   <Compatibility></Compatibility>
+   <Visible>1</Visible>
+   <PartID>1708410879</PartID>
+   <ItemSource>
+    <TextEncoding>134217984</TextEncoding>
+    <SourceLine>Function CellClick(Cell as CustomListboxCell) As boolean</SourceLine>
+    <SourceLine>var lv_Value as string</SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine>gv_ZellInfo.Value = ""</SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine>if Cell isa ButtonsCell then</SourceLine>
+    <SourceLine>lv_Value = cell.GetValue</SourceLine>
+    <SourceLine>'Test: Do an action</SourceLine>
+    <SourceLine>'cell.setValue(2) // Exapmle: Activate the third key</SourceLine>
+    <SourceLine>'me.Invalidate</SourceLine>
+    <SourceLine>gv_ZellInfo.Value = "ButtonsCell "+lv_Value</SourceLine>
+    <SourceLine>elseif cell isa ComboBoxCell then</SourceLine>
+    <SourceLine>lv_Value = cell.getValue</SourceLine>
+    <SourceLine>me.CellValueAt(me.RowIndex,me.ColIndex) = lv_value</SourceLine>
+    <SourceLine>me.EditCellAt(me.RowIndex,me.ColIndex)</SourceLine>
+    <SourceLine>'Test: Do an action i.e. placing a certain value by index</SourceLine>
+    <SourceLine>'cell.setValue(2)</SourceLine>
+    <SourceLine>'me.CellValueAt(me.RowIndex,me.ColIndex) = cell.getValue</SourceLine>
+    <SourceLine>lv_Value = cell.getValue</SourceLine>
+    <SourceLine>gv_ZellInfo.Value = "ComboBoxCell "+lv_Value</SourceLine>
+    <SourceLine>elseif Cell isa ProgressCell then</SourceLine>
+    <SourceLine>lv_Value = cell.GetValue</SourceLine>
+    <SourceLine>'Test: Do an acton</SourceLine>
+    <SourceLine>'cell.SetValue(75) // Test</SourceLine>
+    <SourceLine>gv_ZellInfo.Value = "ProgressCell "+lv_Value</SourceLine>
+    <SourceLine>elseif Cell isa PopUpCell then</SourceLine>
+    <SourceLine>lv_Value = cell.getValue</SourceLine>
+    <SourceLine>gv_ZellInfo.Value = "PopUpCell "+lv_Value</SourceLine>
+    <SourceLine>'me.CellValueAt(me.SelectedRowIndex,me.ColIndex) = lv_value</SourceLine>
+    <SourceLine>me.CellValueAt(me.RowIndex,me.ColIndex) = lv_value</SourceLine>
+    <SourceLine>'Test: Do an action i.e. placing a certain value</SourceLine>
+    <SourceLine>'cell.setValue(3)</SourceLine>
+    <SourceLine>'me.CellValueAt(me.RowIndex,me.ColIndex) = cell.getValue</SourceLine>
+    <SourceLine>ElseIf Cell isa PushButtonCell then</SourceLine>
+    <SourceLine>lv_Value = cell.GetValue</SourceLine>
+    <SourceLine>'Test: Do an action</SourceLine>
+    <SourceLine>gv_ZellInfo.Value = "PushButtonsCell "+lv_Value</SourceLine>
+    <SourceLine>ElseIf Cell isa RatingCell then</SourceLine>
+    <SourceLine>lv_Value = cell.GetValue</SourceLine>
+    <SourceLine>'Test: Do an action</SourceLine>
+    <SourceLine>gv_ZellInfo.Value = "RatingCell "+lv_Value</SourceLine>
+    <SourceLine>else</SourceLine>
+    <SourceLine>if me.ColIndex = 7 then</SourceLine>
+    <SourceLine>me.EditCellAt(me.RowIndex,me.ColIndex)</SourceLine>
+    <SourceLine>end if</SourceLine>
+    <SourceLine>end if</SourceLine>
+    <SourceLine>End Function</SourceLine>
+   </ItemSource>
+  </HookInstance>
+  <HookInstance>
+   <ItemName>KeyUp</ItemName>
+   <Compatibility></Compatibility>
+   <Visible>1</Visible>
+   <PartID>103753727</PartID>
+   <ItemSource>
+    <TextEncoding>134217984</TextEncoding>
+    <SourceLine>Sub KeyUp(Key As String)</SourceLine>
+    <SourceLine>// Beispiel: Progressbar bei Tabtaste setzen</SourceLine>
+    <SourceLine>// Example:  Set progressbar with tab key</SourceLine>
+    <SourceLine>if key.asc = 9 then me.customCell(1,2) = new ProgressCell(75,100) </SourceLine>
+    <SourceLine>End Sub</SourceLine>
+   </ItemSource>
+  </HookInstance>
+  <HookInstance>
+   <ItemName>CellAction</ItemName>
+   <Compatibility></Compatibility>
+   <Visible>1</Visible>
+   <PartID>439910399</PartID>
+   <ItemSource>
+    <TextEncoding>134217984</TextEncoding>
+    <SourceLine>Sub CellAction(row As Integer, column As Integer)</SourceLine>
+    <SourceLine>if me.CellTagAt(row,column) isa PopUpCell then</SourceLine>
+    <SourceLine>customListboxCell(me.celltag(row,column)).setValue(0)</SourceLine>
+    <SourceLine>me.CellValueAt(me.SelectedRowIndex,5) = customListboxCell(me.celltag(row,column)).getValue</SourceLine>
+    <SourceLine>end if</SourceLine>
+    <SourceLine>End Sub</SourceLine>
+   </ItemSource>
+  </HookInstance>
+  <HookInstance>
+   <ItemName>CellBackgroundPaint</ItemName>
+   <Compatibility></Compatibility>
+   <Visible>1</Visible>
+   <PartID>1811517439</PartID>
+   <ItemSource>
+    <TextEncoding>134217984</TextEncoding>
+    <SourceLine>Function CellBackgroundPaint(g as Graphics, row as integer, column as integer) As Boolean</SourceLine>
+    <SourceLine>'break</SourceLine>
+    <SourceLine></SourceLine>
+    <SourceLine>return true</SourceLine>
+    <SourceLine>End Function</SourceLine>
+   </ItemSource>
+  </HookInstance>
+ </ControlBehavior>
+ <ControlBehavior>
+  <Superclass>Label</Superclass>
+ </ControlBehavior>
+ <Control>
+  <ControlClass>CustomCellListbox</ControlClass>
+  <ItemName>CustomCellListbox</ItemName>
+  <PropertyVal Name="Top">4</PropertyVal>
+  <PropertyVal Name="Scope">0</PropertyVal>
+  <PropertyVal Name="Super">CustomCellListbox</PropertyVal>
+  <PropertyVal Name="Name">AlternatingList1</PropertyVal>
+  <PropertyVal Name="Left">4</PropertyVal>
+  <PropertyVal Name="Index">-2147483648</PropertyVal>
+  <PropertyVal Name="ColIndex">0</PropertyVal>
+  <PropertyVal Name="RowIndex">0</PropertyVal>
+  <PropertyVal Name="ShowPopUpControl">False</PropertyVal>
+  <PropertyVal Name="_ScrollWidth">-1</PropertyVal>
+  <PropertyVal Name="_ScrollOffset">0</PropertyVal>
+  <PropertyVal Name="Width">1792</PropertyVal>
+  <PropertyVal Name="Visible">True</PropertyVal>
+  <PropertyVal Name="Underline">False</PropertyVal>
+  <PropertyVal Name="TabStop">True</PropertyVal>
+  <PropertyVal Name="TabPanelIndex">0</PropertyVal>
+  <PropertyVal Name="TabIndex">0</PropertyVal>
+  <PropertyVal Name="RequiresSelection">False</PropertyVal>
+  <PropertyVal Name="LockTop">True</PropertyVal>
+  <PropertyVal Name="LockRight">True</PropertyVal>
+  <PropertyVal Name="LockLeft">True</PropertyVal>
+  <PropertyVal Name="LockBottom">True</PropertyVal>
+  <PropertyVal Name="Italic">False</PropertyVal>
+  <PropertyVal Name="InitialValue"><Hex bytes="50">4E6F726D616C09526174696E670950726F677265737309427574746F6E73095075736809506F70557009436F6D626F426F78</Hex></PropertyVal>
+  <PropertyVal Name="InitialParent"></PropertyVal>
+  <PropertyVal Name="Height">259</PropertyVal>
+  <PropertyVal Name="HeadingIndex">-1</PropertyVal>
+  <PropertyVal Name="Enabled">True</PropertyVal>
+  <PropertyVal Name="DefaultRowHeight">-1</PropertyVal>
+  <PropertyVal Name="DataSource"></PropertyVal>
+  <PropertyVal Name="DataField"></PropertyVal>
+  <PropertyVal Name="ColumnWidths"></PropertyVal>
+  <PropertyVal Name="ColumnCount">7</PropertyVal>
+  <PropertyVal Name="Bold">False</PropertyVal>
+  <PropertyVal Name="alternateRows">True</PropertyVal>
+  <PropertyVal Name="RowSelectionType">0</PropertyVal>
+  <PropertyVal Name="AllowExpandableRows">False</PropertyVal>
+  <PropertyVal Name="AllowRowReordering">False</PropertyVal>
+  <PropertyVal Name="AllowRowDragging">False</PropertyVal>
+  <PropertyVal Name="AllowResizableColumns">True</PropertyVal>
+  <PropertyVal Name="AllowAutoHideScrollbars">True</PropertyVal>
+  <PropertyVal Name="FontUnit">0</PropertyVal>
+  <PropertyVal Name="FontSize">1.1e+1</PropertyVal>
+  <PropertyVal Name="FontName">System</PropertyVal>
+  <PropertyVal Name="AllowFocusRing">True</PropertyVal>
+  <PropertyVal Name="Transparent">True</PropertyVal>
+  <PropertyVal Name="DropIndicatorVisible">False</PropertyVal>
+  <PropertyVal Name="HasVerticalScrollbar">True</PropertyVal>
+  <PropertyVal Name="HasHorizontalScrollbar">False</PropertyVal>
+  <PropertyVal Name="Tooltip"></PropertyVal>
+  <PropertyVal Name="HasHeader">True</PropertyVal>
+  <PropertyVal Name="GridLinesVerticalStyle">0</PropertyVal>
+  <PropertyVal Name="GridLinesHorizontalStyle">0</PropertyVal>
+  <PropertyVal Name="HasBorder">True</PropertyVal>
+  <PropertyVal Name="AllowAutoDeactivate">True</PropertyVal>
+  <ControlIndex>0</ControlIndex>
+  <Locked>0</Locked>
+  <PartID>1242763263</PartID>
+ </Control>
+ <Control>
+  <ControlClass>Label</ControlClass>
+  <ItemName>Label</ItemName>
+  <PropertyVal Name="InitialParent"></PropertyVal>
+  <PropertyVal Name="DataField"></PropertyVal>
+  <PropertyVal Name="DataSource"></PropertyVal>
+  <PropertyVal Name="FontUnit">0</PropertyVal>
+  <PropertyVal Name="FontSize">0.0e+</PropertyVal>
+  <PropertyVal Name="Underline">False</PropertyVal>
+  <PropertyVal Name="FontName">System</PropertyVal>
+  <PropertyVal Name="Italic">False</PropertyVal>
+  <PropertyVal Name="Bold">False</PropertyVal>
+  <PropertyVal Name="Visible">True</PropertyVal>
+  <PropertyVal Name="Value"></PropertyVal>
+  <PropertyVal Name="Transparent">False</PropertyVal>
+  <PropertyVal Name="TextColor">0</PropertyVal>
+  <PropertyVal Name="TextAlignment">0</PropertyVal>
+  <PropertyVal Name="Selectable">False</PropertyVal>
+  <PropertyVal Name="Multiline">False</PropertyVal>
+  <PropertyVal Name="Tooltip"></PropertyVal>
+  <PropertyVal Name="Enabled">True</PropertyVal>
+  <PropertyVal Name="AllowAutoDeactivate">True</PropertyVal>
+  <PropertyVal Name="TabStop">True</PropertyVal>
+  <PropertyVal Name="TabPanelIndex">0</PropertyVal>
+  <PropertyVal Name="TabIndex">1</PropertyVal>
+  <PropertyVal Name="LockBottom">True</PropertyVal>
+  <PropertyVal Name="LockRight">True</PropertyVal>
+  <PropertyVal Name="LockTop">False</PropertyVal>
+  <PropertyVal Name="LockLeft">True</PropertyVal>
+  <PropertyVal Name="Height">20</PropertyVal>
+  <PropertyVal Name="Width">1788</PropertyVal>
+  <PropertyVal Name="Top">269</PropertyVal>
+  <PropertyVal Name="Left">6</PropertyVal>
+  <PropertyVal Name="Scope">0</PropertyVal>
+  <PropertyVal Name="Super">Label</PropertyVal>
+  <PropertyVal Name="Index">-2147483648</PropertyVal>
+  <PropertyVal Name="Name">gv_ZellInfo</PropertyVal>
+  <ControlIndex>1</ControlIndex>
+  <Locked>0</Locked>
+  <PartID>1241055231</PartID>
+ </Control>
+</block>
+<block type="Folder" ID="2754559">
+ <ObjName>ecCustomListBoxCell</ObjName>
+ <ObjContainerID>0</ObjContainerID>
+</block>
+<block type="Module" ID="-1113045011">
+ <ObjName>CustomCellListbox</ObjName>
+ <ObjContainerID>2754559</ObjContainerID>
+ <IsClass>1</IsClass>
+ <Superclass>AlternatingList</Superclass>
+ <ItemFlags>1</ItemFlags>
+ <IsInterface>0</IsInterface>
+ <Compatibility></Compatibility>
+ <HookInstance>
+  <ItemName>CellBackgroundPaint</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>196757503</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function CellBackgroundPaint(g as graphics, row as integer, column as integer) As Boolean</SourceLine>
+   <SourceLine>if row &gt; me.listcount-1 then return true</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>call cellBackgroundPaint(g,row,column)</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>if me.celltag(row,column) isa CustomListboxCell then</SourceLine>
+   <SourceLine>customListboxCell(me.celltag(row,column)).cellPaint(g,row,self.active)</SourceLine>
+   <SourceLine>end if</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>'return cellBackgroundPaint(g,row,column) // so nicht, sonst wird das Dreieck übermalt</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>return true</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+ </HookInstance>
+ <HookInstance>
+  <ItemName>CellClick</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>888670207</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function CellClick(row as Integer, column as Integer, x as Integer, y as Integer) As Boolean</SourceLine>
+   <SourceLine>me.Selected(row) = true</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>me.ColIndex = column</SourceLine>
+   <SourceLine>me.RowIndex = row</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>//if we clicked on a custom cell, forward the click to the cell</SourceLine>
+   <SourceLine>if me.celltag(row,column) isa CustomListboxCell then</SourceLine>
+   <SourceLine>if customListboxCell(me.celltag(row,column)).cellClick(x,y) then</SourceLine>
+   <SourceLine>CustomCellClick(me.celltag(row,column))</SourceLine>
+   <SourceLine>me.invalidateCell(row,column)</SourceLine>
+   <SourceLine>return true</SourceLine>
+   <SourceLine>else</SourceLine>
+   <SourceLine>return CellClick(me.celltag(row,column))</SourceLine>
+   <SourceLine>end if</SourceLine>
+   <SourceLine>else</SourceLine>
+   <SourceLine>return CellClick(me.celltag(row,column))</SourceLine>
+   <SourceLine>end if</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+ </HookInstance>
+ <HookInstance>
+  <ItemName>CompareRows</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>1342894079</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function CompareRows(row1 as Integer, row2 as Integer, column as Integer, ByRef result as Integer) As Boolean</SourceLine>
+   <SourceLine>//use the value from the custom cells when comparing rows.</SourceLine>
+   <SourceLine>if me.celltag(row1,column) isa CustomListboxCell and me.celltag(row2,column) isa CustomListboxCell then</SourceLine>
+   <SourceLine>result=CustomListboxCell(me.celltag(row1,column)).compareValue-CustomListboxCell(me.celltag(row2,column)).compareValue</SourceLine>
+   <SourceLine>return true</SourceLine>
+   <SourceLine>end if</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+ </HookInstance>
+ <HookInstance>
+  <ItemName>MouseDown</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>863737855</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function MouseDown(x As Integer, y As Integer) As Boolean</SourceLine>
+   <SourceLine>me.ColIndex = me.ColumnFromXY(x,y)</SourceLine>
+   <SourceLine>me.RowIndex = me.RowFromXY(x,y)</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>if me.ColIndex &gt; -1 and me.RowIndex &gt; -1 and me.celltag(me.RowIndex,me.ColIndex) isa PushButtonCell then</SourceLine>
+   <SourceLine>'break</SourceLine>
+   <SourceLine>customListboxCell(me.celltag(me.RowIndex,me.ColIndex)).ButtonIsDown(true)</SourceLine>
+   <SourceLine>me.InvalidateCell(me.RowIndex,me.ColIndex)</SourceLine>
+   <SourceLine>'call CellClick(me.CellTag(me.RowIndex,me.ColIndex))</SourceLine>
+   <SourceLine>return true</SourceLine>
+   <SourceLine>end if</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>return MouseDown(x,y)</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+ </HookInstance>
+ <HookInstance>
+  <ItemName>MouseUp</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>435941375</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Sub MouseUp(x As Integer, y As Integer)</SourceLine>
+   <SourceLine>if me.ColIndex &gt; -1 and me.RowIndex &gt; -1 and celltag(me.RowIndex,me.ColIndex) isa PushButtonCell then</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>customListboxCell(me.celltag(me.RowIndex,me.ColIndex)).ButtonIsDown(false)</SourceLine>
+   <SourceLine>me.InvalidateCell(me.RowIndex, me.ColIndex)</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>call CustomListboxCell(me.celltag(me.RowIndex,me.ColIndex)).cellClick(x,y)</SourceLine>
+   <SourceLine>call CellClick(me.CellTag(me.RowIndex,me.ColIndex))</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>end if</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>MouseUp(x,y)</SourceLine>
+   <SourceLine>End Sub</SourceLine>
+  </ItemSource>
+ </HookInstance>
+ <HookInstance>
+  <ItemName>CellLostFocus</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>818069503</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Sub CellLostFocus(row as Integer, column as Integer)</SourceLine>
+   <SourceLine>if me.celltag(row,column) isa CustomListboxCell then</SourceLine>
+   <SourceLine>if me.celltag(row,column) isa ComboBoxCell then</SourceLine>
+   <SourceLine>'hier jetzt den Inhalt der Zelle mit dem aus dem PopUp abgleichen</SourceLine>
+   <SourceLine>if CustomListboxCell(me.CellTagAt(row,column)).CompareAndAdd(me.CellValueAt(row,column))then</SourceLine>
+   <SourceLine>for i as integer = 0 to me.LastRowIndex</SourceLine>
+   <SourceLine>if i = row then continue</SourceLine>
+   <SourceLine>'alle PopUp-Tabellen angleichen</SourceLine>
+   <SourceLine>call CustomListboxCell(me.CellTagAt(i,column)).CompareAndAdd(me.CellValueAt(row,column),false)</SourceLine>
+   <SourceLine>next</SourceLine>
+   <SourceLine>end if</SourceLine>
+   <SourceLine>end if</SourceLine>
+   <SourceLine>end if</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>CellLostFocus(row, column)</SourceLine>
+   <SourceLine>End Sub</SourceLine>
+  </ItemSource>
+ </HookInstance>
+ <Method>
+  <ItemName>customCell</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>1841229823</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Sub customCell(row as integer, column as integer, assigns value as CustomListboxCell)</SourceLine>
+   <SourceLine>//adds a custom cell to this listbox</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>me.celltag(row,column) = value</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>value.owner = self</SourceLine>
+   <SourceLine>End Sub</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>row as integer, column as integer, assigns value as CustomListboxCell</ItemParams>
+  <ItemResult></ItemResult>
+ </Method>
+ <Method>
+  <ItemName>gradient</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>772986879</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Sub gradient(g as graphics)</SourceLine>
+   <SourceLine>#Pragma BackgroundTasks False</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>var i as integer, ratio, endratio as Double</SourceLine>
+   <SourceLine>var StartColor, EndColor, TopColor as Color</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>// Pick our colors</SourceLine>
+   <SourceLine>if me.Active = false or me.Enabled = false then</SourceLine>
+   <SourceLine>StartColor = &amp;cA8A8A8 'RGB(168, 168, 168)</SourceLine>
+   <SourceLine>EndColor   = &amp;c797979 'RGB(121, 121, 121)</SourceLine>
+   <SourceLine>TopColor   = &amp;c919191 'RGB(145, 145, 145)</SourceLine>
+   <SourceLine>else</SourceLine>
+   <SourceLine>StartColor = &amp;c50ABE9 'RGB(80, 171, 233)</SourceLine>
+   <SourceLine>EndColor   = &amp;c0091D7 'RGB(0, 117, 215)</SourceLine>
+   <SourceLine>TopColor   = &amp;c0F91E0 'RGB(15, 145, 224)</SourceLine>
+   <SourceLine>end if</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>// Draw the gradient</SourceLine>
+   <SourceLine>for i = 0 to g.Height</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>// Determine the current line's color</SourceLine>
+   <SourceLine>ratio = ((g.Height-i)/g.Height)</SourceLine>
+   <SourceLine>endratio = (i/g.Height)</SourceLine>
+   <SourceLine>g.ForeColor = RGB(EndColor.Red * endratio + StartColor.Red * ratio, EndColor.Green * endratio + StartColor.Green * ratio, EndColor.Blue * endratio + StartColor.Blue * ratio)</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>// Draw the step</SourceLine>
+   <SourceLine>g.DrawLine 0, i, g.Width, i</SourceLine>
+   <SourceLine>next</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>g.ForeColor = TopColor</SourceLine>
+   <SourceLine>g.DrawLine 0, 0, g.Width, 0</SourceLine>
+   <SourceLine>End Sub</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>1</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>g as graphics</ItemParams>
+  <ItemResult></ItemResult>
+ </Method>
+ <Hook>
+  <ItemName>CellClick</ItemName>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemFlags>33</ItemFlags>
+  <SystemFlags>0</SystemFlags>
+  <ItemParams>Cell as CustomListboxCell</ItemParams>
+  <ItemResult>boolean</ItemResult>
+ </Hook>
+ <Hook>
+  <ItemName>CustomCellClick</ItemName>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemFlags>33</ItemFlags>
+  <SystemFlags>0</SystemFlags>
+  <ItemParams>cell as CustomListboxCell</ItemParams>
+  <ItemResult></ItemResult>
+ </Hook>
+ <Hook>
+  <ItemName>CellLostFocus</ItemName>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemFlags>33</ItemFlags>
+  <SystemFlags>0</SystemFlags>
+  <ItemParams>row as integer, column as integer</ItemParams>
+  <ItemResult></ItemResult>
+ </Hook>
+ <Hook>
+  <ItemName>CellBackgroundPaint</ItemName>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemFlags>33</ItemFlags>
+  <SystemFlags>0</SystemFlags>
+  <ItemParams>g as Graphics, row as integer, column as integer</ItemParams>
+  <ItemResult>Boolean</ItemResult>
+ </Hook>
+ <Hook>
+  <ItemName>MouseDown</ItemName>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemFlags>33</ItemFlags>
+  <SystemFlags>0</SystemFlags>
+  <ItemParams>x as integer, y as integer</ItemParams>
+  <ItemResult>boolean</ItemResult>
+ </Hook>
+ <Hook>
+  <ItemName>MouseUp</ItemName>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemFlags>33</ItemFlags>
+  <SystemFlags>0</SystemFlags>
+  <ItemParams>x as integer, y as integer</ItemParams>
+  <ItemResult></ItemResult>
+ </Hook>
+ <Note>
+  <ItemName>Info</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>2093461503</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <NoteLine>Info</NoteLine>
+   <NoteLine>Enhancement:</NoteLine>
+   <NoteLine></NoteLine>
+   <NoteLine>by Michael Eckert</NoteLine>
+   <NoteLine></NoteLine>
+   <NoteLine>Original:</NoteLine>
+   <NoteLine></NoteLine>
+   <NoteLine>https://github.com/alexrestrepo/RBCustomCells</NoteLine>
+   <NoteLine></NoteLine>
+   <NoteLine>CustomCellListbox</NoteLine>
+   <NoteLine>By Alex Restrepo</NoteLine>
+   <NoteLine>send comments, suggestions, fixes to alexrestrepo@mac.com</NoteLine>
+   <NoteLine></NoteLine>
+   <NoteLine>To add a custom cell to a cell, simply use the customCell(row,column) method.</NoteLine>
+   <NoteLine></NoteLine>
+   <NoteLine>Use in whatever way you like... at your own risk :P</NoteLine>
+   <NoteLine></NoteLine>
+  </ItemSource>
+  <ItemFlags>0</ItemFlags>
+ </Note>
+ <ViewBehavior>
+  <ViewProperty>
+   <ObjName>AllowAutoDeactivate</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Appearance</PropertyGroup>
+   <PropertyValue>True</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>HasBorder</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Appearance</PropertyGroup>
+   <PropertyValue>True</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>GridLinesHorizontalStyle</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Appearance</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>Borders</ItemType>
+   <EditorType>Enum</EditorType>
+   <Enumeration>
+    <ItemDef>0 - Default</ItemDef>
+    <ItemDef>1 - None</ItemDef>
+    <ItemDef>2 - ThinDotted</ItemDef>
+    <ItemDef>3 - ThinSolid</ItemDef>
+    <ItemDef>4 - ThickSolid</ItemDef>
+    <ItemDef>5 - DoubleThinSolid</ItemDef>
+   </Enumeration>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>GridLinesVerticalStyle</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Appearance</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>Borders</ItemType>
+   <EditorType>Enum</EditorType>
+   <Enumeration>
+    <ItemDef>0 - Default</ItemDef>
+    <ItemDef>1 - None</ItemDef>
+    <ItemDef>2 - ThinDotted</ItemDef>
+    <ItemDef>3 - ThinSolid</ItemDef>
+    <ItemDef>4 - ThickSolid</ItemDef>
+    <ItemDef>5 - DoubleThinSolid</ItemDef>
+   </Enumeration>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>HasHeader</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Appearance</PropertyGroup>
+   <PropertyValue>False</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Tooltip</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Appearance</PropertyGroup>
+   <ItemType>String</ItemType>
+   <EditorType>MultiLineEditor</EditorType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>HasHorizontalScrollbar</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Appearance</PropertyGroup>
+   <PropertyValue>False</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>HasVerticalScrollbar</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Appearance</PropertyGroup>
+   <PropertyValue>True</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>DropIndicatorVisible</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Appearance</PropertyGroup>
+   <PropertyValue>False</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Transparent</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Appearance</PropertyGroup>
+   <PropertyValue>False</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>AllowFocusRing</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Appearance</PropertyGroup>
+   <PropertyValue>True</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>FontName</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Font</PropertyGroup>
+   <PropertyValue>System</PropertyValue>
+   <ItemType>String</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>FontSize</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Font</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>Single</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>FontUnit</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Font</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>FontUnits</ItemType>
+   <EditorType>Enum</EditorType>
+   <Enumeration>
+    <ItemDef>0 - Default</ItemDef>
+    <ItemDef>1 - Pixel</ItemDef>
+    <ItemDef>2 - Point</ItemDef>
+    <ItemDef>3 - Inch</ItemDef>
+    <ItemDef>4 - Millimeter</ItemDef>
+   </Enumeration>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>AllowAutoHideScrollbars</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <PropertyValue>True</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>AllowResizableColumns</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <PropertyValue>False</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>AllowRowDragging</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <PropertyValue>False</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>AllowRowReordering</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <PropertyValue>False</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>AllowExpandableRows</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <PropertyValue>False</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>RowSelectionType</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>RowSelectionTypes</ItemType>
+   <EditorType>Enum</EditorType>
+   <Enumeration>
+    <ItemDef>0 - Single</ItemDef>
+    <ItemDef>1 - Multiple</ItemDef>
+   </Enumeration>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>alternateRows</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <PropertyValue>true</PropertyValue>
+   <ItemType>boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Bold</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Font</PropertyGroup>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>ColumnCount</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Appearance</PropertyGroup>
+   <PropertyValue>1</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>ColumnWidths</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Appearance</PropertyGroup>
+   <ItemType>String</ItemType>
+   <EditorType>MultiLineEditor</EditorType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>DataField</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Database Binding</PropertyGroup>
+   <ItemType>String</ItemType>
+   <EditorType>DataField</EditorType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>DataSource</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Database Binding</PropertyGroup>
+   <ItemType>String</ItemType>
+   <EditorType>DataSource</EditorType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>DefaultRowHeight</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Appearance</PropertyGroup>
+   <PropertyValue>-1</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Enabled</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Appearance</PropertyGroup>
+   <PropertyValue>True</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>HeadingIndex</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Appearance</PropertyGroup>
+   <PropertyValue>-1</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Height</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <PropertyValue>100</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>InitialParent</ObjName>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <ItemType>String</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>InitialValue</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Appearance</PropertyGroup>
+   <ItemType>String</ItemType>
+   <EditorType>MultiLineEditor</EditorType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Italic</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Font</PropertyGroup>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>LockBottom</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>LockLeft</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>LockRight</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>LockTop</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>RequiresSelection</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>TabIndex</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>TabPanelIndex</ObjName>
+   <PropertyGroup>Position</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>TabStop</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <PropertyValue>True</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Underline</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Font</PropertyGroup>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Visible</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Appearance</PropertyGroup>
+   <PropertyValue>True</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Width</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <PropertyValue>100</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>_ScrollOffset</ObjName>
+   <PropertyGroup>Appearance</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>_ScrollWidth</ObjName>
+   <PropertyGroup>Appearance</PropertyGroup>
+   <PropertyValue>-1</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>ShowPopUpControl</ObjName>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <PropertyValue>false</PropertyValue>
+   <ItemType>boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>RowIndex</ObjName>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <PropertyValue>-1</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>ColIndex</ObjName>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <PropertyValue>-1</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Index</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Left</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Name</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <ItemType>String</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Super</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <ItemType>String</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Top</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+ </ViewBehavior>
+</block>
+<block type="Module" ID="-1133111035">
+ <ObjName>AlternatingList</ObjName>
+ <ObjContainerID>2754559</ObjContainerID>
+ <IsClass>1</IsClass>
+ <Superclass>Listbox</Superclass>
+ <ItemFlags>1</ItemFlags>
+ <IsInterface>0</IsInterface>
+ <Compatibility></Compatibility>
+ <HookInstance>
+  <ItemName>CellBackgroundPaint</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>290377727</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function CellBackgroundPaint(g As Graphics, row As Integer, column As Integer) As Boolean</SourceLine>
+   <SourceLine>if alternateRows then</SourceLine>
+   <SourceLine>if row mod 2=0 and not me.selected(row) then</SourceLine>
+   <SourceLine>g.ForeColor = Color.FillColor</SourceLine>
+   <SourceLine>elseif me.selected(row) then</SourceLine>
+   <SourceLine>if me.active then</SourceLine>
+   <SourceLine>'g.foreColor = color.HighlightColor</SourceLine>
+   <SourceLine>g.foreColor = &amp;c0550CF 'aktiv    Dunkelblau</SourceLine>
+   <SourceLine>else</SourceLine>
+   <SourceLine>g.foreColor = &amp;cCACACA 'inaktiv  Dunkelgrau - ohne diese Zuweisung wird es schwarz</SourceLine>
+   <SourceLine>end if</SourceLine>
+   <SourceLine>else</SourceLine>
+   <SourceLine>g.forecolor = &amp;cffffff</SourceLine>
+   <SourceLine>end if</SourceLine>
+   <SourceLine>g.fillrect 0,0,g.width,g.height</SourceLine>
+   <SourceLine>end if</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>return cellBackgroundPaint(g,row,column)</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>'return true</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+ </HookInstance>
+ <HookInstance>
+  <ItemName>CellTextPaint</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>2136385535</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function CellTextPaint(g As Graphics, row As Integer, column As Integer, x as Integer, y as Integer) As Boolean</SourceLine>
+   <SourceLine>if me.selected(row) then</SourceLine>
+   <SourceLine>g.bold = true</SourceLine>
+   <SourceLine>g.foreColor = &amp;cFFFFFF</SourceLine>
+   <SourceLine>else</SourceLine>
+   <SourceLine>g.bold = false</SourceLine>
+   <SourceLine>g.foreColor = &amp;c000000</SourceLine>
+   <SourceLine>end if</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>return CellTextPaint(g,row,column,x,y)</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+ </HookInstance>
+ <HookInstance>
+  <ItemName>MouseMove</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>544290815</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Sub MouseMove(X As Integer, Y As Integer)</SourceLine>
+   <SourceLine>var lv_ColIndexAct as integer = ColumnFromXY(x,y)</SourceLine>
+   <SourceLine>var lv_RowIndexAct as integer = RowFromXY(x,y)</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>// Test PopUp-Zelle über die Klasse PopUpCell</SourceLine>
+   <SourceLine>if lv_ColIndexAct &gt; -1 and lv_RowIndexAct &gt; -1 then</SourceLine>
+   <SourceLine>if me.celltag(lv_RowIndexAct,lv_ColIndexAct) isa PopUpCell then</SourceLine>
+   <SourceLine>if RowIndex &lt;&gt; lv_RowIndexAct and _</SourceLine>
+   <SourceLine>customListboxCell(me.celltag(lv_RowIndexAct,lv_ColIndexAct)).ShowPopUpControl(true) then</SourceLine>
+   <SourceLine>RowIndex = RowFromXY(x,y)</SourceLine>
+   <SourceLine>ColIndex = ColumnFromXY(x,y)</SourceLine>
+   <SourceLine>Invalidate 'Cell(RowIndex,ColIndex)</SourceLine>
+   <SourceLine>else </SourceLine>
+   <SourceLine>RowIndex = -1</SourceLine>
+   <SourceLine>ColIndex = -1</SourceLine>
+   <SourceLine>end if</SourceLine>
+   <SourceLine>elseif me.celltag(lv_RowIndexAct,lv_ColIndexAct) isa ComboBoxCell then</SourceLine>
+   <SourceLine>if RowIndex &lt;&gt; lv_RowIndexAct and _</SourceLine>
+   <SourceLine>customListboxCell(me.celltag(lv_RowIndexAct,lv_ColIndexAct)).ShowPopUpControl(true) then</SourceLine>
+   <SourceLine>RowIndex = RowFromXY(x,y)</SourceLine>
+   <SourceLine>ColIndex = ColumnFromXY(x,y)</SourceLine>
+   <SourceLine>Invalidate 'Cell(RowIndex,ColIndex)</SourceLine>
+   <SourceLine>else </SourceLine>
+   <SourceLine>RowIndex = -1</SourceLine>
+   <SourceLine>ColIndex = -1</SourceLine>
+   <SourceLine>end if</SourceLine>
+   <SourceLine>else</SourceLine>
+   <SourceLine>RowIndex = -1</SourceLine>
+   <SourceLine>ColIndex = -1</SourceLine>
+   <SourceLine>Invalidate</SourceLine>
+   <SourceLine>end if</SourceLine>
+   <SourceLine>end if</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>MouseMove(x,y)</SourceLine>
+   <SourceLine>End Sub</SourceLine>
+  </ItemSource>
+ </HookInstance>
+ <Hook>
+  <ItemName>CellBackgroundPaint</ItemName>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemFlags>33</ItemFlags>
+  <SystemFlags>0</SystemFlags>
+  <ItemParams>g as graphics, row as integer, column as integer</ItemParams>
+  <ItemResult>Boolean</ItemResult>
+ </Hook>
+ <Hook>
+  <ItemName>CellTextPaint</ItemName>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemFlags>33</ItemFlags>
+  <SystemFlags>0</SystemFlags>
+  <ItemParams>g as Graphics, row as integer, column as integer, x as integer, y as integer</ItemParams>
+  <ItemResult>Boolean</ItemResult>
+ </Hook>
+ <Hook>
+  <ItemName>MouseMove</ItemName>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemFlags>33</ItemFlags>
+  <SystemFlags>0</SystemFlags>
+  <ItemParams>x as integer, y as integer</ItemParams>
+  <ItemResult></ItemResult>
+ </Hook>
+ <Property>
+  <ItemName>alternateRows</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>985354239</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>alternateRows As boolean = true</SourceLine>
+   <SourceLine></SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemDeclaration>alternateRows As boolean = true</ItemDeclaration>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+ </Property>
+ <Property>
+  <ItemName>ShowPopUpControl</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>292638719</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>ShowPopUpControl As boolean = false</SourceLine>
+   <SourceLine></SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemDeclaration>ShowPopUpControl As boolean = false</ItemDeclaration>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+ </Property>
+ <Property>
+  <ItemName>RowIndex</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>916568063</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>RowIndex As Integer = -1</SourceLine>
+   <SourceLine></SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemDeclaration>RowIndex As Integer = -1</ItemDeclaration>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+ </Property>
+ <Property>
+  <ItemName>ColIndex</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>161505279</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>ColIndex As Integer = -1</SourceLine>
+   <SourceLine></SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemDeclaration>ColIndex As Integer = -1</ItemDeclaration>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+ </Property>
+ <ViewBehavior>
+  <ViewProperty>
+   <ObjName>AllowAutoDeactivate</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Appearance</PropertyGroup>
+   <PropertyValue>True</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>HasBorder</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Appearance</PropertyGroup>
+   <PropertyValue>True</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>GridLinesHorizontalStyle</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Appearance</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>Borders</ItemType>
+   <EditorType>Enum</EditorType>
+   <Enumeration>
+    <ItemDef>0 - Default</ItemDef>
+    <ItemDef>1 - None</ItemDef>
+    <ItemDef>2 - ThinDotted</ItemDef>
+    <ItemDef>3 - ThinSolid</ItemDef>
+    <ItemDef>4 - ThickSolid</ItemDef>
+    <ItemDef>5 - DoubleThinSolid</ItemDef>
+   </Enumeration>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>GridLinesVerticalStyle</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Appearance</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>Borders</ItemType>
+   <EditorType>Enum</EditorType>
+   <Enumeration>
+    <ItemDef>0 - Default</ItemDef>
+    <ItemDef>1 - None</ItemDef>
+    <ItemDef>2 - ThinDotted</ItemDef>
+    <ItemDef>3 - ThinSolid</ItemDef>
+    <ItemDef>4 - ThickSolid</ItemDef>
+    <ItemDef>5 - DoubleThinSolid</ItemDef>
+   </Enumeration>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>HasHeader</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Appearance</PropertyGroup>
+   <PropertyValue>False</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Tooltip</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Appearance</PropertyGroup>
+   <ItemType>String</ItemType>
+   <EditorType>MultiLineEditor</EditorType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>HasHorizontalScrollbar</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Appearance</PropertyGroup>
+   <PropertyValue>False</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>HasVerticalScrollbar</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Appearance</PropertyGroup>
+   <PropertyValue>True</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>DropIndicatorVisible</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Appearance</PropertyGroup>
+   <PropertyValue>False</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Transparent</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Appearance</PropertyGroup>
+   <PropertyValue>False</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>AllowFocusRing</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Appearance</PropertyGroup>
+   <PropertyValue>True</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>FontName</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Font</PropertyGroup>
+   <PropertyValue>System</PropertyValue>
+   <ItemType>String</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>FontSize</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Font</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>Single</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>FontUnit</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Font</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>FontUnits</ItemType>
+   <EditorType>Enum</EditorType>
+   <Enumeration>
+    <ItemDef>0 - Default</ItemDef>
+    <ItemDef>1 - Pixel</ItemDef>
+    <ItemDef>2 - Point</ItemDef>
+    <ItemDef>3 - Inch</ItemDef>
+    <ItemDef>4 - Millimeter</ItemDef>
+   </Enumeration>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>AllowAutoHideScrollbars</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <PropertyValue>True</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>AllowResizableColumns</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <PropertyValue>False</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>AllowRowDragging</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <PropertyValue>False</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>AllowRowReordering</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <PropertyValue>False</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>AllowExpandableRows</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <PropertyValue>False</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>RowSelectionType</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>RowSelectionTypes</ItemType>
+   <EditorType>Enum</EditorType>
+   <Enumeration>
+    <ItemDef>0 - Single</ItemDef>
+    <ItemDef>1 - Multiple</ItemDef>
+   </Enumeration>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>alternateRows</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <PropertyValue>true</PropertyValue>
+   <ItemType>boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Bold</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Font</PropertyGroup>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>ColumnCount</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Appearance</PropertyGroup>
+   <PropertyValue>1</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>ColumnWidths</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Appearance</PropertyGroup>
+   <ItemType>String</ItemType>
+   <EditorType>MultiLineEditor</EditorType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>DataField</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Database Binding</PropertyGroup>
+   <ItemType>String</ItemType>
+   <EditorType>DataField</EditorType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>DataSource</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Database Binding</PropertyGroup>
+   <ItemType>String</ItemType>
+   <EditorType>DataSource</EditorType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>DefaultRowHeight</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Appearance</PropertyGroup>
+   <PropertyValue>-1</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Enabled</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Appearance</PropertyGroup>
+   <PropertyValue>True</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>HeadingIndex</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Appearance</PropertyGroup>
+   <PropertyValue>-1</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Height</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <PropertyValue>100</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Index</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>InitialParent</ObjName>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <ItemType>String</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>InitialValue</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Appearance</PropertyGroup>
+   <ItemType>String</ItemType>
+   <EditorType>MultiLineEditor</EditorType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Italic</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Font</PropertyGroup>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Left</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>LockBottom</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>LockLeft</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>LockRight</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>LockTop</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Name</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <ItemType>String</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>RequiresSelection</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Super</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <ItemType>String</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>TabIndex</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>TabPanelIndex</ObjName>
+   <PropertyGroup>Position</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>TabStop</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <PropertyValue>True</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Top</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Underline</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Font</PropertyGroup>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Visible</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Appearance</PropertyGroup>
+   <PropertyValue>True</PropertyValue>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Width</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <PropertyValue>100</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>_ScrollOffset</ObjName>
+   <PropertyGroup>Appearance</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>_ScrollWidth</ObjName>
+   <PropertyGroup>Appearance</PropertyGroup>
+   <PropertyValue>-1</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>ShowPopUpControl</ObjName>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <PropertyValue>false</PropertyValue>
+   <ItemType>boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>RowIndex</ObjName>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <PropertyValue>-1</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>ColIndex</ObjName>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <PropertyValue>-1</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+ </ViewBehavior>
+ <Constant>
+  <ItemName>CurrencyFormat</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>965945343</PartID>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemType>0</ItemType>
+  <ItemDef>#,0.00;(#,0.00);\</ItemDef>
+  <ItemFlags>64</ItemFlags>
+  <ConstantInstance>
+   <ItemPlatform>0</ItemPlatform>
+   <ItemLanguage>4</ItemLanguage>
+   <ItemDef>#.0,00;(#.0,00);\</ItemDef>
+  </ConstantInstance>
+  <ConstantInstance>
+   <ItemPlatform>0</ItemPlatform>
+   <ItemLanguage>1</ItemLanguage>
+   <ItemDef>#,0.00;(#,0.00);\</ItemDef>
+  </ConstantInstance>
+  <ConstantInstance>
+   <ItemPlatform>0</ItemPlatform>
+   <ItemLanguage>2</ItemLanguage>
+   <ItemDef>#,0.00;(#,0.00);\</ItemDef>
+  </ConstantInstance>
+ </Constant>
+ <Constant>
+  <ItemName>DateFormat</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>2044086271</PartID>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemType>0</ItemType>
+  <ItemDef>dd.mm.yyyy</ItemDef>
+  <ItemFlags>64</ItemFlags>
+  <ConstantInstance>
+   <ItemPlatform>0</ItemPlatform>
+   <ItemLanguage>4</ItemLanguage>
+   <ItemDef>dd.mm.yyyy</ItemDef>
+  </ConstantInstance>
+  <ConstantInstance>
+   <ItemPlatform>0</ItemPlatform>
+   <ItemLanguage>1</ItemLanguage>
+   <ItemDef>mm/dd/yyyy</ItemDef>
+  </ConstantInstance>
+  <ConstantInstance>
+   <ItemPlatform>0</ItemPlatform>
+   <ItemLanguage>2</ItemLanguage>
+   <ItemDef>dd-mm-yyyy</ItemDef>
+  </ConstantInstance>
+ </Constant>
+</block>
+<block type="Module" ID="-1113049298">
+ <ObjName>CustomListboxCell</ObjName>
+ <ObjContainerID>2754559</ObjContainerID>
+ <IsClass>1</IsClass>
+ <ItemFlags>1</ItemFlags>
+ <IsInterface>1</IsInterface>
+ <Compatibility></Compatibility>
+ <Method>
+  <ItemName>cellClick</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>845604863</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function cellClick(x as integer, y as integer) As boolean</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>x as integer, y as integer</ItemParams>
+  <ItemResult>boolean</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>cellPaint</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>1496231935</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Sub cellPaint(g as graphics, row as integer, active as Boolean = true)</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>End Sub</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>g as graphics, row as integer, active as Boolean = true</ItemParams>
+  <ItemResult></ItemResult>
+ </Method>
+ <Method>
+  <ItemName>compareValue</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>833568767</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function compareValue() As integer</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams></ItemParams>
+  <ItemResult>integer</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>owner</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>494305279</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Sub owner(assigns value as CustomCellListbox)</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>End Sub</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>assigns value as CustomCellListbox</ItemParams>
+  <ItemResult></ItemResult>
+ </Method>
+ <Method>
+  <ItemName>setValue</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>4235263</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Sub setValue(iv_value as integer)</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>End Sub</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>iv_value as integer</ItemParams>
+  <ItemResult></ItemResult>
+ </Method>
+ <Method>
+  <ItemName>getValue</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>92137471</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function getValue(ReturnValueIndex as boolean = false) As string</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>ReturnValueIndex as boolean = false</ItemParams>
+  <ItemResult>string</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>ShowPopUpControl</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>1598298111</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function ShowPopUpControl(show as Boolean) As boolean</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>show as Boolean</ItemParams>
+  <ItemResult>boolean</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>ButtonIsDown</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>75479039</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Sub ButtonIsDown(Down as Boolean)</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>End Sub</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>Down as Boolean</ItemParams>
+  <ItemResult></ItemResult>
+ </Method>
+ <Method>
+  <ItemName>ButtonIsDown</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>747087871</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function ButtonIsDown() As Boolean</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams></ItemParams>
+  <ItemResult>Boolean</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>CompareAndAdd</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>1541373951</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function CompareAndAdd(iv_Value as string, iv_ActualCell as boolean = true) As Boolean</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>iv_Value as string, iv_ActualCell as boolean = true</ItemParams>
+  <ItemResult>Boolean</ItemResult>
+ </Method>
+ <Note>
+  <ItemName>Info</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>1132836863</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <NoteLine>Info</NoteLine>
+   <NoteLine>This in the interface you want to implement when creating your custom cell</NoteLine>
+   <NoteLine></NoteLine>
+  </ItemSource>
+  <ItemFlags>0</ItemFlags>
+ </Note>
+ <ViewBehavior>
+  <ViewProperty>
+   <ObjName>Index</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <PropertyValue>-2147483648</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Left</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Name</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <ItemType>String</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Super</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <ItemType>String</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Top</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+ </ViewBehavior>
+</block>
+<block type="BuildAutomation" ID="478719999">
+ <ObjName>Build Automation</ObjName>
+ <ObjContainerID>0</ObjContainerID>
+</block>
+<block type="BuildStepsList" ID="924651519">
+ <ObjName>Linux</ObjName>
+ <ObjContainerID>478719999</ObjContainerID>
+</block>
+<block type="BuildProjectStep" ID="504111103">
+ <ObjName>Build</ObjName>
+ <ObjContainerID>924651519</ObjContainerID>
+</block>
+<block type="BuildStepsList" ID="1475583999">
+ <ObjName>Mac OS X</ObjName>
+ <ObjContainerID>478719999</ObjContainerID>
+</block>
+<block type="BuildProjectStep" ID="1221881855">
+ <ObjName>Build</ObjName>
+ <ObjContainerID>1475583999</ObjContainerID>
+</block>
+<block type="BuildStepsList" ID="163622911">
+ <ObjName>Windows</ObjName>
+ <ObjContainerID>478719999</ObjContainerID>
+</block>
+<block type="BuildProjectStep" ID="1077547007">
+ <ObjName>Build</ObjName>
+ <ObjContainerID>163622911</ObjContainerID>
+</block>
+<block type="Module" ID="-1111863710">
+ <ObjName>ButtonsCell</ObjName>
+ <ObjContainerID>2754559</ObjContainerID>
+ <IsClass>1</IsClass>
+ <Interfaces>CustomListboxCell</Interfaces>
+ <ItemFlags>1</ItemFlags>
+ <IsInterface>0</IsInterface>
+ <Compatibility></Compatibility>
+ <Method>
+  <ItemName>cellClick</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>1805844479</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function cellClick(x as integer, y as integer) As boolean</SourceLine>
+   <SourceLine>var bhit as integer = x \ RowHeight</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>if bhit&lt;=ubound(buttons) then</SourceLine>
+   <SourceLine>if PressedButtonIndex = bhit then</SourceLine>
+   <SourceLine>PressedButtonIndex = -1</SourceLine>
+   <SourceLine>else</SourceLine>
+   <SourceLine>PressedButtonIndex = bhit</SourceLine>
+   <SourceLine>end if</SourceLine>
+   <SourceLine>'return true</SourceLine>
+   <SourceLine>return false</SourceLine>
+   <SourceLine>else</SourceLine>
+   <SourceLine>PressedButtonIndex = -1</SourceLine>
+   <SourceLine>return false</SourceLine>
+   <SourceLine>end if</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>x as integer, y as integer</ItemParams>
+  <ItemResult>boolean</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>cellPaint</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>427857919</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Sub cellPaint(g as graphics, row as integer, active as Boolean = true)</SourceLine>
+   <SourceLine>RowHeight = g.Height</SourceLine>
+   <SourceLine>var lv_yPos as integer</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>for i as integer = 0 to ubound(buttons)</SourceLine>
+   <SourceLine>if i = PressedButtonIndex then</SourceLine>
+   <SourceLine>g.ForeColor = Color.HighlightColor</SourceLine>
+   <SourceLine>else</SourceLine>
+   <SourceLine>g.foreColor = color.DarkBevelColor </SourceLine>
+   <SourceLine>end if</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>g.FillOval i*g.Height,1,g.Height-2,g.Height-2</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>g.foreColor = color.TextColor 'DarkBevelColor </SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>g.drawoval i*g.Height,1,g.Height-2,g.Height-2 </SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>g.foreColor = Color.TextColor</SourceLine>
+   <SourceLine>g.FontSize  = g.Height-4</SourceLine>
+   <SourceLine>g.FontName  = "Arial"</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>'lv_yPos = g.Height/2 + g.FontAscent/2 </SourceLine>
+   <SourceLine>lv_yPos = g.Height - ((g.Height - g.FontAscent + 2) / 2) </SourceLine>
+   <SourceLine>var w As Integer = g.TextWidth(str(i))</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>g.DrawText str(i+1),w/2+i*g.Height, lv_yPos </SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>next</SourceLine>
+   <SourceLine>End Sub</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>g as graphics, row as integer, active as Boolean = true</ItemParams>
+  <ItemResult></ItemResult>
+ </Method>
+ <Method>
+  <ItemName>compareValue</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>1453076479</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function compareValue() As integer</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams></ItemParams>
+  <ItemResult>integer</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>constructor</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>778428415</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Sub constructor(iv_Elements as string)</SourceLine>
+   <SourceLine>var lv_Elements as string = iv_Elements</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>lv_Elements = lv_Elements.ReplaceAll(chr(9),";")</SourceLine>
+   <SourceLine>lv_Elements = lv_Elements.ReplaceAll("|",";")</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>buttons = lv_Elements.ToArray(";")</SourceLine>
+   <SourceLine>End Sub</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>iv_Elements as string</ItemParams>
+  <ItemResult></ItemResult>
+ </Method>
+ <Method>
+  <ItemName>owner</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>136374271</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Sub owner(assigns value as CustomCellListbox)</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>End Sub</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>assigns value as CustomCellListbox</ItemParams>
+  <ItemResult></ItemResult>
+ </Method>
+ <Method>
+  <ItemName>SetValue</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>144240639</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Sub SetValue(iv_value as integer)</SourceLine>
+   <SourceLine>if iv_value &gt; -1 and iv_value &lt;= buttons.Ubound then</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>PressedButtonIndex = iv_value</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>end if</SourceLine>
+   <SourceLine>End Sub</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>iv_value as integer</ItemParams>
+  <ItemResult></ItemResult>
+ </Method>
+ <Method>
+  <ItemName>getValue</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>890519551</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function getValue(ReturnValueIndex as boolean = false) As string</SourceLine>
+   <SourceLine>if ReturnValueIndex then</SourceLine>
+   <SourceLine>return PressedButtonIndex.ToString 'Index der Taste / Index of button </SourceLine>
+   <SourceLine>else</SourceLine>
+   <SourceLine>if PressedButtonIndex &gt; -1 and PressedButtonIndex &lt;= buttons.Ubound then</SourceLine>
+   <SourceLine>return buttons(PressedButtonIndex) 'Name der Taste / Name of button</SourceLine>
+   <SourceLine>else</SourceLine>
+   <SourceLine>return ""</SourceLine>
+   <SourceLine>end if</SourceLine>
+   <SourceLine>end if</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>ReturnValueIndex as boolean = false</ItemParams>
+  <ItemResult>string</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>ShowPopUpControl</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>1393747967</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function ShowPopUpControl(show as Boolean) As boolean</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>show as Boolean</ItemParams>
+  <ItemResult>boolean</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>ButtonIsDown</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>183904255</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Sub ButtonIsDown(Down as Boolean)</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>End Sub</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>Down as Boolean</ItemParams>
+  <ItemResult></ItemResult>
+ </Method>
+ <Method>
+  <ItemName>buttonIsDown</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>1582456831</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function buttonIsDown() As Boolean</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams></ItemParams>
+  <ItemResult>Boolean</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>compareAndAdd</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>1764560895</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function compareAndAdd(iv_Value as string, iv_ActualCell as boolean = true) As Boolean</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>iv_Value as string, iv_ActualCell as boolean = true</ItemParams>
+  <ItemResult>Boolean</ItemResult>
+ </Method>
+ <Property>
+  <ItemName>buttons()</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>91650047</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>buttons() As string</SourceLine>
+   <SourceLine></SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemDeclaration>buttons() As string</ItemDeclaration>
+  <ItemFlags>1</ItemFlags>
+  <IsShared>0</IsShared>
+ </Property>
+ <Property>
+  <ItemName>PressedButtonIndex</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>1698824191</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>PressedButtonIndex As Integer = -1</SourceLine>
+   <SourceLine></SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemDeclaration>PressedButtonIndex As Integer = -1</ItemDeclaration>
+  <ItemFlags>1</ItemFlags>
+  <IsShared>0</IsShared>
+ </Property>
+ <Property>
+  <ItemName>RowHeight</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>1682239487</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>RowHeight As Integer</SourceLine>
+   <SourceLine></SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemDeclaration>RowHeight As Integer</ItemDeclaration>
+  <ItemFlags>1</ItemFlags>
+  <IsShared>0</IsShared>
+ </Property>
+ <ViewBehavior>
+  <ViewProperty>
+   <ObjName>Index</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <PropertyValue>-2147483648</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Left</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Name</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <ItemType>String</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Super</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <ItemType>String</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Top</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+ </ViewBehavior>
+</block>
+<block type="Module" ID="-1113049145">
+ <ObjName>RatingCell</ObjName>
+ <ObjContainerID>2754559</ObjContainerID>
+ <IsClass>1</IsClass>
+ <Interfaces>CustomListboxCell</Interfaces>
+ <ItemFlags>1</ItemFlags>
+ <IsInterface>0</IsInterface>
+ <Compatibility></Compatibility>
+ <Method>
+  <ItemName>cellClick</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>178448383</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function cellClick(x as integer, y as integer) As boolean</SourceLine>
+   <SourceLine>//calculate the "rating"</SourceLine>
+   <SourceLine>'rating = (x+3) \ 13</SourceLine>
+   <SourceLine>rating = (x+3) \ RowHeight</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>if rating &gt; max then </SourceLine>
+   <SourceLine>rating = max</SourceLine>
+   <SourceLine>ElseIf rating &lt; 0 then </SourceLine>
+   <SourceLine>rating = 0</SourceLine>
+   <SourceLine>end if</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>return false // damit der Zellklick oben im Fensterelement ankommt</SourceLine>
+   <SourceLine>             // for returning the cell click to the window element at top</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>x as integer, y as integer</ItemParams>
+  <ItemResult>boolean</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>cellPaint</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>1395650559</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Sub cellPaint(g as graphics, row as integer, active as Boolean = true)</SourceLine>
+   <SourceLine>#pragma disableBackgroundTasks</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>var lv_yPos as integer</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>RowHeight = g.Height</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>//paint the Asterix "*"</SourceLine>
+   <SourceLine>var sx   as integer = g.height '13</SourceLine>
+   <SourceLine>var olds as integer = g.FontSize</SourceLine>
+   <SourceLine>var oldf as string  = g.FontName</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>g.foreColor = color.DarkBevelColor </SourceLine>
+   <SourceLine>g.FontName = "Arial"</SourceLine>
+   <SourceLine>g.FontSize = g.Height/2</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>'lv_yPos = g.Height/2 + g.FontAscent/2</SourceLine>
+   <SourceLine>lv_yPos = g.Height/2 + g.TextHeight/2</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>'⭐️</SourceLine>
+   <SourceLine>'Stern</SourceLine>
+   <SourceLine>'Unicode: U+2B50 U+FE0F, UTF-8: E2 AD 90 EF B8 8F⭐️</SourceLine>
+   <SourceLine>'Stern</SourceLine>
+   <SourceLine>'Unicode: U+2B50 U+FE0F, UTF-8: E2 AD 90 EF B8 8F</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>'☆</SourceLine>
+   <SourceLine>'WHITE STAR</SourceLine>
+   <SourceLine>'Unicode: U+2606, UTF-8: E2 98 86</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>for i as integer = 1 to max</SourceLine>
+   <SourceLine>if i &lt;= rating then</SourceLine>
+   <SourceLine>'g.drawstring "*",sx-4,g.height+7</SourceLine>
+   <SourceLine>if active then</SourceLine>
+   <SourceLine>g.drawstring "⭐",sx-4,lv_yPos</SourceLine>
+   <SourceLine>else</SourceLine>
+   <SourceLine>g.Drawstring "☆" ,sx-4,lv_yPos</SourceLine>
+   <SourceLine>end if</SourceLine>
+   <SourceLine>else</SourceLine>
+   <SourceLine>g.fillOval sx,g.height/2,2,2</SourceLine>
+   <SourceLine>end if</SourceLine>
+   <SourceLine>'sx = sx + 13</SourceLine>
+   <SourceLine>sx = sx + g.Height</SourceLine>
+   <SourceLine>next</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>g.FontSize = olds</SourceLine>
+   <SourceLine>g.FontName = oldf</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>End Sub</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>g as graphics, row as integer, active as Boolean = true</ItemParams>
+  <ItemResult></ItemResult>
+ </Method>
+ <Method>
+  <ItemName>compareValue</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>9867263</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function compareValue() As integer</SourceLine>
+   <SourceLine>//return the numeric value of the rating</SourceLine>
+   <SourceLine>return rating</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams></ItemParams>
+  <ItemResult>integer</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>Constructor</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>2006022143</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Sub Constructor(rating as integer, max as integer)</SourceLine>
+   <SourceLine>self.rating = rating</SourceLine>
+   <SourceLine>self.max    = max</SourceLine>
+   <SourceLine>End Sub</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>rating as integer, max as integer</ItemParams>
+  <ItemResult></ItemResult>
+ </Method>
+ <Method>
+  <ItemName>owner</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>2023485439</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Sub owner(assigns value as CustomCellListbox)</SourceLine>
+   <SourceLine>//we don't need this</SourceLine>
+   <SourceLine>End Sub</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>assigns value as CustomCellListbox</ItemParams>
+  <ItemResult></ItemResult>
+ </Method>
+ <Method>
+  <ItemName>setValue</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>352079871</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Sub setValue(iv_value as integer)</SourceLine>
+   <SourceLine>rating = iv_value</SourceLine>
+   <SourceLine>End Sub</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>iv_value as integer</ItemParams>
+  <ItemResult></ItemResult>
+ </Method>
+ <Method>
+  <ItemName>getValue</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>1035177983</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function getValue(ReturnValueIndex as boolean = false) As string</SourceLine>
+   <SourceLine>// Rating is also Index!</SourceLine>
+   <SourceLine>return rating.ToString</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>ReturnValueIndex as boolean = false</ItemParams>
+  <ItemResult>string</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>ShowPopUpControl</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>674486271</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function ShowPopUpControl(show as Boolean) As boolean</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>show as Boolean</ItemParams>
+  <ItemResult>boolean</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>buttonIsDown</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>2036529151</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Sub buttonIsDown(Down as Boolean)</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>End Sub</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>Down as Boolean</ItemParams>
+  <ItemResult></ItemResult>
+ </Method>
+ <Method>
+  <ItemName>buttonIsDown</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>685664255</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function buttonIsDown() As Boolean</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams></ItemParams>
+  <ItemResult>Boolean</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>compareAndAdd</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>1942990847</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function compareAndAdd(iv_Value as string, iv_ActualCell as boolean = true) As Boolean</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>iv_Value as string, iv_ActualCell as boolean = true</ItemParams>
+  <ItemResult>Boolean</ItemResult>
+ </Method>
+ <Property>
+  <ItemName>max</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>1255669759</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>max As integer</SourceLine>
+   <SourceLine></SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemDeclaration>max As integer</ItemDeclaration>
+  <ItemFlags>1</ItemFlags>
+  <IsShared>0</IsShared>
+ </Property>
+ <Property>
+  <ItemName>ownerList</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>1080117247</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>ownerList As CustomCellListbox</SourceLine>
+   <SourceLine></SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemDeclaration>ownerList As CustomCellListbox</ItemDeclaration>
+  <ItemFlags>1</ItemFlags>
+  <IsShared>0</IsShared>
+ </Property>
+ <Property>
+  <ItemName>rating</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>542365695</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>rating As integer</SourceLine>
+   <SourceLine></SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemDeclaration>rating As integer</ItemDeclaration>
+  <ItemFlags>1</ItemFlags>
+  <IsShared>0</IsShared>
+ </Property>
+ <Property>
+  <ItemName>RowHeight</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>644349951</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>RowHeight As Integer</SourceLine>
+   <SourceLine></SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemDeclaration>RowHeight As Integer</ItemDeclaration>
+  <ItemFlags>1</ItemFlags>
+  <IsShared>0</IsShared>
+ </Property>
+ <ViewBehavior>
+  <ViewProperty>
+   <ObjName>Index</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <PropertyValue>-2147483648</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Left</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Name</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <ItemType>String</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Super</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <ItemType>String</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Top</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+ </ViewBehavior>
+</block>
+<block type="Module" ID="1791959039">
+ <ObjName>ComboBoxCell</ObjName>
+ <ObjContainerID>2754559</ObjContainerID>
+ <IsClass>1</IsClass>
+ <Interfaces>CustomListboxCell</Interfaces>
+ <ItemFlags>1</ItemFlags>
+ <IsInterface>0</IsInterface>
+ <Compatibility></Compatibility>
+ <Method>
+  <ItemName>cellClick</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>561151999</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function cellClick(x as integer, y as integer) As boolean</SourceLine>
+   <SourceLine>// Part of the CustomListboxCell interface.</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>if x &lt; CellWidth-15 then return false</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>var base as new menuItem</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>for i as integer = 0 to PopUpValues.Ubound</SourceLine>
+   <SourceLine>base.append(New MenuItem(PopUpValues(i)))</SourceLine>
+   <SourceLine>if PopUpValues(i) = SelectedValue then </SourceLine>
+   <SourceLine>base.MenuAt(base.LastRowIndex).HasCheckMark = true</SourceLine>
+   <SourceLine>else</SourceLine>
+   <SourceLine>base.MenuAt(base.LastRowIndex).HasCheckMark = false</SourceLine>
+   <SourceLine>end if</SourceLine>
+   <SourceLine>base.MenuAt(base.LastRowIndex).Tag = i</SourceLine>
+   <SourceLine>next</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>var selectedMenu As new MenuItem</SourceLine>
+   <SourceLine>selectedMenu = base.Popup</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>if selectedMenu &lt;&gt; nil then</SourceLine>
+   <SourceLine>SelectedValue = selectedMenu.Value</SourceLine>
+   <SourceLine>SelectedIndex = selectedMenu.Tag</SourceLine>
+   <SourceLine>end if </SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>return false</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>x as integer, y as integer</ItemParams>
+  <ItemResult>boolean</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>cellPaint</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>1437235199</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Sub cellPaint(g as graphics, row as integer, active as Boolean = true)</SourceLine>
+   <SourceLine>// Part of the CustomListboxCell interface.</SourceLine>
+   <SourceLine>var c As Color '= &amp;c0550CF 'color.HighlightColor</SourceLine>
+   <SourceLine>if active then</SourceLine>
+   <SourceLine>c = &amp;c0550CF 'aktiv</SourceLine>
+   <SourceLine>else</SourceLine>
+   <SourceLine>c = &amp;cCACACA 'inaktiv</SourceLine>
+   <SourceLine>end if</SourceLine>
+   <SourceLine>g.DrawingColor = c </SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>// Die Selektionsfläche des ComboBoxControls hat eine fixe Größe. Hier wird von eine Zeilenhöhe mit 20 Pixeln</SourceLine>
+   <SourceLine>// ausgegangen.</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>CellWidth = g.Width</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>if not ShowPopUpControl then // show the triangle into the cell at top right</SourceLine>
+   <SourceLine>var lt_points(6) as double = Array(0, g.Width-(g.Height/2), 1, g.Width-1, 1, g.Width-1, (g.Height/2))</SourceLine>
+   <SourceLine>g.FillPolygon(lt_points)</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>g.PenSize = 1</SourceLine>
+   <SourceLine>g.DrawingColor = HSV(c.Hue, c.Saturation, c.Value * 0.5)</SourceLine>
+   <SourceLine>g.DrawPolygon(lt_points)</SourceLine>
+   <SourceLine>else                         // show the control for activation of PopUp</SourceLine>
+   <SourceLine>var iSize   as integer = 14</SourceLine>
+   <SourceLine>if g.Height &lt; iSize then iSize = g.Height</SourceLine>
+   <SourceLine>var iBreite as integer = g.Width - iSize</SourceLine>
+   <SourceLine>var iZeile  as integer = g.Height / 3 </SourceLine>
+   <SourceLine>var iLinksO as integer = g.Width - iSize + (iSize/4)</SourceLine>
+   <SourceLine>var iLinksU as integer = iLinksO +  3</SourceLine>
+   <SourceLine>var iRechtO as integer = iLinksU</SourceLine>
+   <SourceLine>var iRechtU as integer = iRechtO +  3</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>'ein Rechteck in fester Größe malen</SourceLine>
+   <SourceLine>g.FillRectangle(iBreite,1,g.Height,g.Height)        'Rechteck 14 x 14 rechts außen in der Zelle</SourceLine>
+   <SourceLine>g.PenSize = 1</SourceLine>
+   <SourceLine>g.DrawingColor = HSV(c.Hue, c.Saturation, c.Value * 0.5)</SourceLine>
+   <SourceLine>g.DrawRectangle(iBreite,1,g.Width-1,g.Height-1)</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>'nach unten zeigende Pfeilspitze in die Mitte des Rechtecks malen</SourceLine>
+   <SourceLine>g.DrawingColor = color.White  'wenn inaktiv, dann wird dieses Control-Element nicht angezeigt</SourceLine>
+   <SourceLine>g.PenSize      = 2</SourceLine>
+   <SourceLine>g.DrawLine(iLinksO,iZeile+1,iRechtO ,iZeile+4)</SourceLine>
+   <SourceLine>g.DrawLine(iLinksU,iZeile+4,iRechtU ,iZeile+1)</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>ShowPopupControl = false</SourceLine>
+   <SourceLine>end if</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>End Sub</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>g as graphics, row as integer, active as Boolean = true</ItemParams>
+  <ItemResult></ItemResult>
+ </Method>
+ <Method>
+  <ItemName>compareValue</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>6479871</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function compareValue() As integer</SourceLine>
+   <SourceLine>// Part of the CustomListboxCell interface.</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams></ItemParams>
+  <ItemResult>integer</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>owner</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>410951679</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Sub owner(assigns value as CustomCellListbox)</SourceLine>
+   <SourceLine>// Part of the CustomListboxCell interface.</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>End Sub</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>assigns value as CustomCellListbox</ItemParams>
+  <ItemResult></ItemResult>
+ </Method>
+ <Method>
+  <ItemName>setValue</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>417806335</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Sub setValue(iv_value as integer)</SourceLine>
+   <SourceLine>// Part of the CustomListboxCell interface.</SourceLine>
+   <SourceLine>if iv_value &lt; 0 then</SourceLine>
+   <SourceLine>SelectedValue = ""</SourceLine>
+   <SourceLine>else</SourceLine>
+   <SourceLine>SelectedValue = PopUpValues(iv_value)</SourceLine>
+   <SourceLine>end if</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>SelectedIndex = iv_value</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>End Sub</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>iv_value as integer</ItemParams>
+  <ItemResult></ItemResult>
+ </Method>
+ <Method>
+  <ItemName>getValue</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>1711720447</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function getValue(ReturnValueIndex as boolean = false) As string</SourceLine>
+   <SourceLine>// Part of the CustomListboxCell interface.</SourceLine>
+   <SourceLine>if ReturnValueIndex then</SourceLine>
+   <SourceLine>return SelectedIndex.ToString</SourceLine>
+   <SourceLine>else</SourceLine>
+   <SourceLine>return SelectedValue</SourceLine>
+   <SourceLine>end if</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>ReturnValueIndex as boolean = false</ItemParams>
+  <ItemResult>string</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>ShowPopUpControl</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>405954559</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function ShowPopUpControl(show as Boolean) As boolean</SourceLine>
+   <SourceLine>// Part of the CustomListboxCell interface.</SourceLine>
+   <SourceLine>if ShowPopupControl &lt;&gt; show then</SourceLine>
+   <SourceLine>ShowPopupControl = show</SourceLine>
+   <SourceLine>return true</SourceLine>
+   <SourceLine>else</SourceLine>
+   <SourceLine>return false</SourceLine>
+   <SourceLine>end if</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>show as Boolean</ItemParams>
+  <ItemResult>boolean</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>Constructor</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>1095383039</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Sub Constructor(iv_PopUpValues as string)</SourceLine>
+   <SourceLine>var lv_Elements as string = iv_PopUpValues</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>lv_Elements = lv_Elements.ReplaceAll(chr(9),";")</SourceLine>
+   <SourceLine>lv_Elements = lv_Elements.ReplaceAll("|",";")</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>PopUpValues = lv_Elements.ToArray(";")</SourceLine>
+   <SourceLine>End Sub</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>iv_PopUpValues as string</ItemParams>
+  <ItemResult></ItemResult>
+ </Method>
+ <Method>
+  <ItemName>buttonIsDown</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>480456703</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Sub buttonIsDown(Down as Boolean)</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>End Sub</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>Down as Boolean</ItemParams>
+  <ItemResult></ItemResult>
+ </Method>
+ <Method>
+  <ItemName>buttonIsDown</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>586979327</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function buttonIsDown() As Boolean</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams></ItemParams>
+  <ItemResult>Boolean</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>compareAndAdd</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>1859862527</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function compareAndAdd(iv_Value as string, iv_ActualCell as boolean = true) As Boolean</SourceLine>
+   <SourceLine>var iPos as integer = -1</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>if iv_Value &lt;= "" then return false</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>for i as integer = 0 to PopUpValues.Ubound</SourceLine>
+   <SourceLine>if PopUpValues(i).Uppercase = iv_Value.Uppercase then</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>if iv_ActualCell then        // Test M.E. 06.07.2020</SourceLine>
+   <SourceLine>SelectedValue = iv_Value   //</SourceLine>
+   <SourceLine>SelectedIndex = i          //</SourceLine>
+   <SourceLine>end if                       //</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>return false</SourceLine>
+   <SourceLine>end if</SourceLine>
+   <SourceLine>if PopUpValues(i) &gt; iv_Value and iPos &lt; 0 then iPos = i</SourceLine>
+   <SourceLine>next</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>if iPos &gt; -1 then</SourceLine>
+   <SourceLine>PopUpValues.AddRowAt(iPos,iv_Value)</SourceLine>
+   <SourceLine>else</SourceLine>
+   <SourceLine>PopUpValues.AddRow(iv_Value)</SourceLine>
+   <SourceLine>end if</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>if iv_ActualCell then</SourceLine>
+   <SourceLine>SelectedValue = iv_Value</SourceLine>
+   <SourceLine>SelectedIndex = iPos</SourceLine>
+   <SourceLine>end if</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>return true</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>iv_Value as string, iv_ActualCell as boolean = true</ItemParams>
+  <ItemResult>Boolean</ItemResult>
+ </Method>
+ <Property>
+  <ItemName>ShowPopupControl</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>1045565439</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>ShowPopupControl As boolean</SourceLine>
+   <SourceLine></SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemDeclaration>ShowPopupControl As boolean</ItemDeclaration>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+ </Property>
+ <Property>
+  <ItemName>PopUpValues()</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>1272965119</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>PopUpValues() As string</SourceLine>
+   <SourceLine></SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemDeclaration>PopUpValues() As string</ItemDeclaration>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+ </Property>
+ <Property>
+  <ItemName>SelectedIndex</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>370946047</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>SelectedIndex As Integer</SourceLine>
+   <SourceLine></SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemDeclaration>SelectedIndex As Integer</ItemDeclaration>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+ </Property>
+ <Property>
+  <ItemName>SelectedValue</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>1531127807</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>SelectedValue As string</SourceLine>
+   <SourceLine></SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemDeclaration>SelectedValue As string</ItemDeclaration>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+ </Property>
+ <Property>
+  <ItemName>CellWidth</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>449255423</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>CellWidth As Integer</SourceLine>
+   <SourceLine></SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemDeclaration>CellWidth As Integer</ItemDeclaration>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+ </Property>
+ <ViewBehavior>
+  <ViewProperty>
+   <ObjName>Name</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <ItemType>String</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Index</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <PropertyValue>-2147483648</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Super</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <ItemType>String</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Left</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Top</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>ShowPopupControl</ObjName>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <ItemType>boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>SelectedIndex</ObjName>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>SelectedValue</ObjName>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <ItemType>string</ItemType>
+   <EditorType>MultiLineEditor</EditorType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>CellWidth</ObjName>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+ </ViewBehavior>
+</block>
+<block type="Module" ID="858200063">
+ <ObjName>PushButtonCell</ObjName>
+ <ObjContainerID>2754559</ObjContainerID>
+ <IsClass>1</IsClass>
+ <Interfaces>CustomListboxCell</Interfaces>
+ <ItemFlags>1</ItemFlags>
+ <IsInterface>0</IsInterface>
+ <Compatibility></Compatibility>
+ <Method>
+  <ItemName>cellClick</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>1033578495</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function cellClick(x as integer, y as integer) As boolean</SourceLine>
+   <SourceLine>// Part of the CustomListboxCell interface.</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>IsPressed = not IsPressed</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>return false // damit der Zellklick oben im Fensterelement ankommt</SourceLine>
+   <SourceLine>             // for returning the cell click to the window element at top</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>x as integer, y as integer</ItemParams>
+  <ItemResult>boolean</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>cellPaint</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>1213822975</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Sub cellPaint(g as graphics, row as integer, active as Boolean = true)</SourceLine>
+   <SourceLine>// Part of the CustomListboxCell interface.</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>var lv_PBText   as string</SourceLine>
+   <SourceLine>var lv_TextLine as integer = g.height - 3</SourceLine>
+   <SourceLine>var lv_TextCol  as integer </SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>g.ForeColor = Color.LightBevelColor </SourceLine>
+   <SourceLine>g.DrawLine(1, 1, g.Width, 1)</SourceLine>
+   <SourceLine>g.DrawLine(1, g.Height - 1, 1, 1)</SourceLine>
+   <SourceLine>g.ForeColor = Color.DarkBevelColor</SourceLine>
+   <SourceLine>g.DrawLine(g.Width - 1, 2, g.Width-1, g.Height)</SourceLine>
+   <SourceLine>g.DrawLine(1, g.Height - 1, g.Width, g.Height - 1)</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>// fill in the light gray rectangle</SourceLine>
+   <SourceLine>if ButtonIsDown then</SourceLine>
+   <SourceLine>g.ForeColor = Color.HighlightColor</SourceLine>
+   <SourceLine>lv_PBText   = CaptionIsPressed</SourceLine>
+   <SourceLine>else</SourceLine>
+   <SourceLine>g.ForeColor = Color.FillColor 'LightBevelColor</SourceLine>
+   <SourceLine>lv_PBText   = CaptionIsNotPressed</SourceLine>
+   <SourceLine>end if</SourceLine>
+   <SourceLine>g.FillRect(2, 2, g.Width - 3, g.Height - 3)</SourceLine>
+   <SourceLine>g.ForeColor   = Color.TextColor</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>lv_TextCol  = (g.Width / 2) - ( g.TextWidth(lv_PBText) / 2 )</SourceLine>
+   <SourceLine>lv_TextLine = g.Height/2 + g.FontAscent/2</SourceLine>
+   <SourceLine>if lv_TextLine &gt;= g.Height-1 then</SourceLine>
+   <SourceLine>lv_TextLine = g.Height - 2</SourceLine>
+   <SourceLine>end if</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>g.DrawText(lv_PBText,lv_TextCol,lv_TextLine)</SourceLine>
+   <SourceLine>End Sub</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>g as graphics, row as integer, active as Boolean = true</ItemParams>
+  <ItemResult></ItemResult>
+ </Method>
+ <Method>
+  <ItemName>compareValue</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>252745727</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function compareValue() As integer</SourceLine>
+   <SourceLine>// Part of the CustomListboxCell interface.</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams></ItemParams>
+  <ItemResult>integer</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>owner</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>3917823</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Sub owner(assigns value as CustomCellListbox)</SourceLine>
+   <SourceLine>// Part of the CustomListboxCell interface.</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>End Sub</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>assigns value as CustomCellListbox</ItemParams>
+  <ItemResult></ItemResult>
+ </Method>
+ <Method>
+  <ItemName>Constructor</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>2069258239</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Sub Constructor(iv_CaptionIsPressed as string, iv_CaptionIsNotPressed as string, iv_SingleValue as boolean = true)</SourceLine>
+   <SourceLine>CaptionIsPressed    = iv_CaptionIsPressed</SourceLine>
+   <SourceLine>CaptionIsNotPressed = iv_CaptionIsNotPressed</SourceLine>
+   <SourceLine>SingleValue         = iv_SingleValue</SourceLine>
+   <SourceLine>End Sub</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>iv_CaptionIsPressed as string, iv_CaptionIsNotPressed as string, iv_SingleValue as boolean = true</ItemParams>
+  <ItemResult></ItemResult>
+ </Method>
+ <Method>
+  <ItemName>setValue</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>702009343</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Sub setValue(iv_value as integer)</SourceLine>
+   <SourceLine>IsPressed = (iv_value = 0)</SourceLine>
+   <SourceLine>End Sub</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>iv_value as integer</ItemParams>
+  <ItemResult></ItemResult>
+ </Method>
+ <Method>
+  <ItemName>getValue</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>1382426623</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function getValue(ReturnValueIndex as boolean = false) As string</SourceLine>
+   <SourceLine>return IsPressed.ToString</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>ReturnValueIndex as boolean = false</ItemParams>
+  <ItemResult>string</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>ShowPopUpControl</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>1028970495</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function ShowPopUpControl(show as Boolean) As boolean</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>show as Boolean</ItemParams>
+  <ItemResult>boolean</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>buttonIsDown</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>1690929151</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Sub buttonIsDown(Down as Boolean)</SourceLine>
+   <SourceLine>ButtonIsDown = Down</SourceLine>
+   <SourceLine>End Sub</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>Down as Boolean</ItemParams>
+  <ItemResult></ItemResult>
+ </Method>
+ <Method>
+  <ItemName>buttonIsDown</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>1283287039</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function buttonIsDown() As Boolean</SourceLine>
+   <SourceLine>return ButtonIsDown</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams></ItemParams>
+  <ItemResult>Boolean</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>compareAndAdd</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>896645119</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function compareAndAdd(iv_Value as string, iv_ActualCell as boolean = true) As Boolean</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>iv_Value as string, iv_ActualCell as boolean = true</ItemParams>
+  <ItemResult>Boolean</ItemResult>
+ </Method>
+ <Property>
+  <ItemName>IsPressed</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>1487091711</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>IsPressed As Boolean</SourceLine>
+   <SourceLine></SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemDeclaration>IsPressed As Boolean</ItemDeclaration>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+ </Property>
+ <Property>
+  <ItemName>CaptionIsPressed</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>1973379071</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>CaptionIsPressed As string</SourceLine>
+   <SourceLine></SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemDeclaration>CaptionIsPressed As string</ItemDeclaration>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+ </Property>
+ <Property>
+  <ItemName>CaptionIsNotPressed</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>1939349503</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>CaptionIsNotPressed As string</SourceLine>
+   <SourceLine></SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemDeclaration>CaptionIsNotPressed As string</ItemDeclaration>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+ </Property>
+ <Property>
+  <ItemName>SingleValue</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>2042935295</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>SingleValue As boolean</SourceLine>
+   <SourceLine></SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemDeclaration>SingleValue As boolean</ItemDeclaration>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+ </Property>
+ <Property>
+  <ItemName>ButtonIsDown</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>1421957119</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>ButtonIsDown As boolean</SourceLine>
+   <SourceLine></SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemDeclaration>ButtonIsDown As boolean</ItemDeclaration>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+ </Property>
+ <ViewBehavior>
+  <ViewProperty>
+   <ObjName>Name</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <ItemType>String</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Index</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <PropertyValue>-2147483648</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Super</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <ItemType>String</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Left</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Top</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>IsPressed</ObjName>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <ItemType>Boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>CaptionIsPressed</ObjName>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <ItemType>string</ItemType>
+   <EditorType>MultiLineEditor</EditorType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>CaptionIsNotPressed</ObjName>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <ItemType>string</ItemType>
+   <EditorType>MultiLineEditor</EditorType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>SingleValue</ObjName>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <ItemType>boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>ButtonIsDown</ObjName>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <ItemType>boolean</ItemType>
+  </ViewProperty>
+ </ViewBehavior>
+</block>
+<block type="Module" ID="1692997631">
+ <ObjName>PopUpCell</ObjName>
+ <ObjContainerID>2754559</ObjContainerID>
+ <IsClass>1</IsClass>
+ <Interfaces>CustomListboxCell</Interfaces>
+ <ItemFlags>1</ItemFlags>
+ <IsInterface>0</IsInterface>
+ <Compatibility></Compatibility>
+ <Method>
+  <ItemName>cellClick</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>418631679</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function cellClick(x as integer, y as integer) As boolean</SourceLine>
+   <SourceLine>// Part of the CustomListboxCell interface.</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>var base as new menuItem</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>for i as integer = 0 to PopUpValues.Ubound</SourceLine>
+   <SourceLine>base.append(New MenuItem(PopUpValues(i)))</SourceLine>
+   <SourceLine>if PopUpValues(i) = SelectedValue then</SourceLine>
+   <SourceLine>base.MenuAt(base.LastRowIndex).HasCheckMark = true</SourceLine>
+   <SourceLine>else</SourceLine>
+   <SourceLine>base.MenuAt(base.LastRowIndex).HasCheckMark = false</SourceLine>
+   <SourceLine>end if</SourceLine>
+   <SourceLine>base.MenuAt(base.LastRowIndex).Tag = i</SourceLine>
+   <SourceLine>next</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>var selectedMenu As new MenuItem</SourceLine>
+   <SourceLine>selectedMenu = base.Popup</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>if selectedMenu &lt;&gt; nil then</SourceLine>
+   <SourceLine>SelectedValue = selectedMenu.Value</SourceLine>
+   <SourceLine>SelectedIndex = selectedMenu.Tag</SourceLine>
+   <SourceLine>end if </SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>return false</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>x as integer, y as integer</ItemParams>
+  <ItemResult>boolean</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>cellPaint</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>1697988607</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Sub cellPaint(g as graphics, row as integer, active as Boolean = true)</SourceLine>
+   <SourceLine>'// Part of the CustomListboxCell interface.</SourceLine>
+   <SourceLine>var c As Color '= &amp;c0550CF 'color.HighlightColor</SourceLine>
+   <SourceLine>if active then</SourceLine>
+   <SourceLine>c = &amp;c0550CF 'aktiv</SourceLine>
+   <SourceLine>else</SourceLine>
+   <SourceLine>c = &amp;cCACACA 'inaktiv</SourceLine>
+   <SourceLine>end if</SourceLine>
+   <SourceLine>g.DrawingColor = c </SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>if not ShowPopUpControl then // show the triangle into the cell at top right</SourceLine>
+   <SourceLine>var lt_points(6) as double = Array(0, g.Width-(g.Height/2), 1, g.Width-1, 1, g.Width-1, (g.Height/2))</SourceLine>
+   <SourceLine>g.FillPolygon(lt_points)</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>g.PenSize = 1</SourceLine>
+   <SourceLine>g.DrawingColor = HSV(c.Hue, c.Saturation, c.Value * 0.5)</SourceLine>
+   <SourceLine>g.DrawPolygon(lt_points)</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>else                         // show the control for activation of PopUp</SourceLine>
+   <SourceLine>var iSize   as integer = 14</SourceLine>
+   <SourceLine>if g.Height &lt; iSize then iSize = g.Height</SourceLine>
+   <SourceLine>var iBreite as integer = g.Width - iSize</SourceLine>
+   <SourceLine>var iSpalte as integer = g.Height / 10</SourceLine>
+   <SourceLine>var iZeile  as integer = g.Height / 3 </SourceLine>
+   <SourceLine>var iLinksO as integer = g.Width - iSize + (iSize/4)</SourceLine>
+   <SourceLine>var iLinksU as integer = iLinksO +  3</SourceLine>
+   <SourceLine>var iRechtO as integer = iLinksU</SourceLine>
+   <SourceLine>var iRechtU as integer = iRechtO +  3</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>'ein Rechteck in fester Größe malen</SourceLine>
+   <SourceLine>g.FillRectangle(iBreite,1,g.Width-1,g.Height-1)        'Rechteck 14 x 14 rechts außen in der Zelle</SourceLine>
+   <SourceLine>g.PenSize = 1</SourceLine>
+   <SourceLine>g.DrawingColor = HSV(c.Hue, c.Saturation, c.Value * 0.5)</SourceLine>
+   <SourceLine>g.DrawRectangle(iBreite,1,g.Width-1,g.Height-1)</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>g.PenSize = 2</SourceLine>
+   <SourceLine>'nach unten und oben zeigende Pfeilspitzen in die Mitte des Rechtecks malen</SourceLine>
+   <SourceLine>g.DrawingColor = color.White 'wenn inaktiv, dann wird dieses Control-Element nicht angezeigt</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>' nach oben</SourceLine>
+   <SourceLine>g.DrawLine(iLinksO,iZeile+1,iRechtO ,iZeile-2)</SourceLine>
+   <SourceLine>g.DrawLine(iLinksU,iZeile-2,iRechtU ,iZeile+1)</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>'nach unten</SourceLine>
+   <SourceLine>g.DrawLine(iLinksO,iZeile+4,iRechtO ,iZeile+7)</SourceLine>
+   <SourceLine>g.DrawLine(iLinksU,iZeile+7,iRechtU ,iZeile+4)</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>ShowPopupControl = false</SourceLine>
+   <SourceLine>end if</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>End Sub</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>g as graphics, row as integer, active as Boolean = true</ItemParams>
+  <ItemResult></ItemResult>
+ </Method>
+ <Method>
+  <ItemName>compareValue</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>1405341695</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function compareValue() As integer</SourceLine>
+   <SourceLine>// Part of the CustomListboxCell interface.</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams></ItemParams>
+  <ItemResult>integer</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>owner</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>731473919</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Sub owner(assigns value as CustomCellListbox)</SourceLine>
+   <SourceLine>// Part of the CustomListboxCell interface.</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>End Sub</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>assigns value as CustomCellListbox</ItemParams>
+  <ItemResult></ItemResult>
+ </Method>
+ <Method>
+  <ItemName>setValue</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>1020104703</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Sub setValue(iv_value as integer)</SourceLine>
+   <SourceLine>// Part of the CustomListboxCell interface.</SourceLine>
+   <SourceLine>if iv_value &lt; 0 then</SourceLine>
+   <SourceLine>SelectedValue = ""</SourceLine>
+   <SourceLine>else</SourceLine>
+   <SourceLine>SelectedValue = PopUpValues(iv_value)</SourceLine>
+   <SourceLine>end if</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>SelectedIndex = iv_value</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>End Sub</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>iv_value as integer</ItemParams>
+  <ItemResult></ItemResult>
+ </Method>
+ <Method>
+  <ItemName>getValue</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>1455962111</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function getValue(ReturnValueIndex as boolean = false) As string</SourceLine>
+   <SourceLine>// Part of the CustomListboxCell interface.</SourceLine>
+   <SourceLine>if ReturnValueIndex then</SourceLine>
+   <SourceLine>return SelectedIndex.ToString</SourceLine>
+   <SourceLine>else</SourceLine>
+   <SourceLine>return SelectedValue</SourceLine>
+   <SourceLine>end if</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>ReturnValueIndex as boolean = false</ItemParams>
+  <ItemResult>string</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>Constructor</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>427698175</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Sub Constructor(iv_PopUpValues as string)</SourceLine>
+   <SourceLine>// Der Import-Parameter iv_PopUpValues enthält die Werte für das PopUpMenü, getrennt mit Komma</SourceLine>
+   <SourceLine>var lv_Elements as string = iv_PopUpValues</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>lv_Elements = lv_Elements.ReplaceAll(chr(9),";")</SourceLine>
+   <SourceLine>lv_Elements = lv_Elements.ReplaceAll("|",";")</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>PopUpValues = lv_Elements.ToArray(";")</SourceLine>
+   <SourceLine>End Sub</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>iv_PopUpValues as string</ItemParams>
+  <ItemResult></ItemResult>
+ </Method>
+ <Method>
+  <ItemName>ShowPopUpControl</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>666288127</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function ShowPopUpControl(show as Boolean) As boolean</SourceLine>
+   <SourceLine>// Part of the CustomListboxCell interface.</SourceLine>
+   <SourceLine>if ShowPopupControl &lt;&gt; show then</SourceLine>
+   <SourceLine>ShowPopupControl = show</SourceLine>
+   <SourceLine>return true</SourceLine>
+   <SourceLine>else</SourceLine>
+   <SourceLine>return false</SourceLine>
+   <SourceLine>end if</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>show as Boolean</ItemParams>
+  <ItemResult>boolean</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>buttonIsDown</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>235591679</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Sub buttonIsDown(Down as Boolean)</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>End Sub</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>Down as Boolean</ItemParams>
+  <ItemResult></ItemResult>
+ </Method>
+ <Method>
+  <ItemName>buttonIsDown</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>1964347391</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function buttonIsDown() As Boolean</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams></ItemParams>
+  <ItemResult>Boolean</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>compareAndAdd</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>705095679</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function compareAndAdd(iv_Value as string, iv_ActualCell as boolean = true) As Boolean</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>iv_Value as string, iv_ActualCell as boolean = true</ItemParams>
+  <ItemResult>Boolean</ItemResult>
+ </Method>
+ <Property>
+  <ItemName>PopUpValues()</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>272846847</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>PopUpValues() As string</SourceLine>
+   <SourceLine></SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemDeclaration>PopUpValues() As string</ItemDeclaration>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+ </Property>
+ <Property>
+  <ItemName>ShowPopupControl</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>53196799</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>ShowPopupControl As boolean</SourceLine>
+   <SourceLine></SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemDeclaration>ShowPopupControl As boolean</ItemDeclaration>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+ </Property>
+ <Property>
+  <ItemName>SelectedValue</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>875274239</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>SelectedValue As string</SourceLine>
+   <SourceLine></SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemDeclaration>SelectedValue As string</ItemDeclaration>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+ </Property>
+ <Property>
+  <ItemName>SelectedIndex</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>158877695</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>SelectedIndex As Integer</SourceLine>
+   <SourceLine></SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemDeclaration>SelectedIndex As Integer</ItemDeclaration>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+ </Property>
+ <ViewBehavior>
+  <ViewProperty>
+   <ObjName>Name</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <ItemType>String</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Index</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <PropertyValue>-2147483648</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Super</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <ItemType>String</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Left</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Top</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>ShowPopupControl</ObjName>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <ItemType>boolean</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>SelectedValue</ObjName>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <ItemType>string</ItemType>
+   <EditorType>MultiLineEditor</EditorType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>SelectedIndex</ObjName>
+   <PropertyGroup>Behavior</PropertyGroup>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+ </ViewBehavior>
+</block>
+<block type="Module" ID="-1112018086">
+ <ObjName>ProgressCell</ObjName>
+ <ObjContainerID>2754559</ObjContainerID>
+ <IsClass>1</IsClass>
+ <Interfaces>CustomListboxCell</Interfaces>
+ <ItemFlags>1</ItemFlags>
+ <IsInterface>0</IsInterface>
+ <Compatibility></Compatibility>
+ <Method>
+  <ItemName>cellClick</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>562837503</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function cellClick(x as integer, y as integer) As boolean</SourceLine>
+   <SourceLine>'//set a random value</SourceLine>
+   <SourceLine>'value = rnd * 100</SourceLine>
+   <SourceLine>return false // damit der Zellklick oben im Fensterelement ankommt</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>x as integer, y as integer</ItemParams>
+  <ItemResult>boolean</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>cellPaint</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>836483071</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Sub cellPaint(g as graphics, row as integer, active as Boolean = true)</SourceLine>
+   <SourceLine>#pragma disableBackgroundTasks</SourceLine>
+   <SourceLine>//paint the progressBar</SourceLine>
+   <SourceLine>var Percent, Width as integer</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>Percent = value * 100 / max</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>if Percent &gt; 100 then Percent = 100</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>Width = Percent*(g.width-9)/100</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>g.PenSize = 1</SourceLine>
+   <SourceLine>var c As Color '= color.HighlightColor '&amp;c0550CF </SourceLine>
+   <SourceLine>if active then</SourceLine>
+   <SourceLine>c = color.HighlightColor '&amp;c0550CF 'aktiv</SourceLine>
+   <SourceLine>else</SourceLine>
+   <SourceLine>c = &amp;cCACACA 'inaktiv</SourceLine>
+   <SourceLine>end if</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>g.DrawingColor = c</SourceLine>
+   <SourceLine>g.FillRectangle 3,3,Width,g.height-6</SourceLine>
+   <SourceLine>g.DrawingColor = HSV(c.Hue, c.Saturation, c.Value * 0.5)</SourceLine>
+   <SourceLine>g.drawRect 3,3, Width,g.height-6</SourceLine>
+   <SourceLine>End Sub</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>g as graphics, row as integer, active as Boolean = true</ItemParams>
+  <ItemResult></ItemResult>
+ </Method>
+ <Method>
+  <ItemName>compareValue</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>1372688383</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function compareValue() As integer</SourceLine>
+   <SourceLine>//return the value of the progressCell</SourceLine>
+   <SourceLine>return value</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams></ItemParams>
+  <ItemResult>integer</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>Constructor</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>255555583</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Sub Constructor(value as integer, max as integer)</SourceLine>
+   <SourceLine>self.value = value 'aktuelle Länge des Fortschrittbalkens</SourceLine>
+   <SourceLine>self.max   = max   'maximale Länge des Fortschrittbalkens</SourceLine>
+   <SourceLine>End Sub</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>value as integer, max as integer</ItemParams>
+  <ItemResult></ItemResult>
+ </Method>
+ <Method>
+  <ItemName>owner</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>877031423</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Sub owner(assigns value as CustomCellListbox)</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>End Sub</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>assigns value as CustomCellListbox</ItemParams>
+  <ItemResult></ItemResult>
+ </Method>
+ <Method>
+  <ItemName>setValue</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>4235263</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Sub setValue(iv_value as integer)</SourceLine>
+   <SourceLine>value = iv_value // das genügt, der Invalidate kommt automatisch</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>End Sub</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>iv_value as integer</ItemParams>
+  <ItemResult></ItemResult>
+ </Method>
+ <Method>
+  <ItemName>getValue</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>1390473215</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function getValue(ReturnValueIndex as boolean = false) As string</SourceLine>
+   <SourceLine>return value.ToString</SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>ReturnValueIndex as boolean = false</ItemParams>
+  <ItemResult>string</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>ShowPopUpControl</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>803842047</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function ShowPopUpControl(show as Boolean) As boolean</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>show as Boolean</ItemParams>
+  <ItemResult>boolean</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>buttonIsDown</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>1103398911</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Sub buttonIsDown(Down as Boolean)</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>End Sub</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>Down as Boolean</ItemParams>
+  <ItemResult></ItemResult>
+ </Method>
+ <Method>
+  <ItemName>buttonIsDown</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>2022094847</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function buttonIsDown() As Boolean</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams></ItemParams>
+  <ItemResult>Boolean</ItemResult>
+ </Method>
+ <Method>
+  <ItemName>compareAndAdd</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>941465599</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>Function compareAndAdd(iv_Value as string, iv_ActualCell as boolean = true) As Boolean</SourceLine>
+   <SourceLine></SourceLine>
+   <SourceLine>End Function</SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <AliasName></AliasName>
+  <ItemFlags>0</ItemFlags>
+  <IsShared>0</IsShared>
+  <ItemParams>iv_Value as string, iv_ActualCell as boolean = true</ItemParams>
+  <ItemResult>Boolean</ItemResult>
+ </Method>
+ <Property>
+  <ItemName>max</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>1896751103</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>max As integer</SourceLine>
+   <SourceLine></SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemDeclaration>max As integer</ItemDeclaration>
+  <ItemFlags>1</ItemFlags>
+  <IsShared>0</IsShared>
+ </Property>
+ <Property>
+  <ItemName>value</ItemName>
+  <Compatibility></Compatibility>
+  <Visible>1</Visible>
+  <PartID>1417402367</PartID>
+  <ItemSource>
+   <TextEncoding>134217984</TextEncoding>
+   <SourceLine>value As integer</SourceLine>
+   <SourceLine></SourceLine>
+  </ItemSource>
+  <TextEncoding>134217984</TextEncoding>
+  <ItemDeclaration>value As integer</ItemDeclaration>
+  <ItemFlags>1</ItemFlags>
+  <IsShared>0</IsShared>
+ </Property>
+ <ViewBehavior>
+  <ViewProperty>
+   <ObjName>Index</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <PropertyValue>-2147483648</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Left</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Name</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <ItemType>String</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Super</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>ID</PropertyGroup>
+   <ItemType>String</ItemType>
+  </ViewProperty>
+  <ViewProperty>
+   <ObjName>Top</ObjName>
+   <Visible>1</Visible>
+   <PropertyGroup>Position</PropertyGroup>
+   <PropertyValue>0</PropertyValue>
+   <ItemType>Integer</ItemType>
+  </ViewProperty>
+ </ViewBehavior>
+</block>
+<block type="UIState" ID="0">
+ <StudioWindowState>
+  <EditBounds><Rect left="188" top="23" width="1799" height="1336"/></EditBounds>
+  <WindowMaximized>0</WindowMaximized>
+  <Editors>
+   <EditorCount>1</EditorCount>
+   <Editor>
+    <EditorIndex>0</EditorIndex>
+    <EditorLocation>Window1</EditorLocation>
+    <EditorPath></EditorPath>
+    <EditingPartID>-1113051612</EditingPartID>
+    <EditorPath></EditorPath>
+   </Editor>
+   <SelectedTab>0</SelectedTab>
+  </Editors>
+ </StudioWindowState>
+</block>
+</RBProject>
